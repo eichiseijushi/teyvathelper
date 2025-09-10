@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Przesuwanie palety RGB</title>
+<style>
+  body { font-family: sans-serif; background: #222; color: #fff; padding: 20px; }
+  .color-box { width: 150px; height: 50px; margin: 10px 0; line-height: 50px; text-align: center; border-radius: 5px; }
+  input { margin: 5px 0; }
+</style>
+</head>
+<body>
+<h2>Przesuwanie palety RGB</h2>
+
+<label>Docelowy kolor (HEX, np. #a5f3cb): 
+  <input type="text" id="targetColor" value="#a5f3cb">
+</label>
+<button onclick="shiftPalette()">Przesuń paletę</button>
+
+
+<div id="paletteContainer"></div>
+
+<script>
+const originalPalette = {
+  "Top bar": "#292022",
+  "Regions bar": "#2e2426",
+  "Main bcg": "#332829",
+  "Buttons": "#3d3132",
+  "Text": "#dcb37b",
+  "Lighter text": "#f1e1ba"
+};
+
+function hexToRgb(hex) {
+  hex = hex.replace('#','');
+  return [parseInt(hex.substr(0,2),16), parseInt(hex.substr(2,2),16), parseInt(hex.substr(4,2),16)];
+}
+
+function rgbToHex(rgb) {
+  return '#' + rgb.map(c => c.toString(16).padStart(2,'0')).join('');
+}
+
+function shiftColor(baseFrom, baseTo, color) {
+  return [
+    Math.max(0, Math.min(255, color[0] + (baseTo[0]-baseFrom[0]))),
+    Math.max(0, Math.min(255, color[1] + (baseTo[1]-baseFrom[1]))),
+    Math.max(0, Math.min(255, color[2] + (baseTo[2]-baseFrom[2])))
+  ];
+}
+
+function shiftPalette() {
+  const targetHex = document.getElementById('targetColor').value;
+  const baseFrom = hexToRgb(originalPalette["Lighter text"]);
+  const baseTo = hexToRgb(targetHex);
+
+  const container = document.getElementById('paletteContainer');
+  container.innerHTML = '';
+
+  for (const [name, colorHex] of Object.entries(originalPalette)) {
+    const shifted = rgbToHex(shiftColor(baseFrom, baseTo, hexToRgb(colorHex)));
+    const div = document.createElement('div');
+    div.className = 'color-box';
+    div.style.background = shifted;
+    div.textContent = `${name}: ${shifted}`;
+    container.appendChild(div);
+  }
+}
+
+// Pokaż od razu początkową paletę
+shiftPalette();
+</script>
+</body>
+</html>

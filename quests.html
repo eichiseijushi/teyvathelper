@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quest Checklist</title>
+  <link rel="stylesheet" href="quests.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="topbar">
+    <button class="btn" id="backBtn">Back</button>
+    <div class="search">
+      <input id="searchInput" type="text" placeholder="" />
+      <label><input id="hideCompleted" type="checkbox" /> Hide completed</label>
+    </div>
+    <div class="palette-selector">
+    <button id="paletteBtn">Change Color</button>
+    <div id="paletteMenu" class="palette-menu">
+      <!-- Przycisk do każdej palety w JS -->
+    </div>
+  </header>
+
+  <div class="wrap">
+    <aside class="sidebar" id="regionsSidebar">
+      <!-- Region buttons render here -->
+    </aside>
+
+    <main class="main" id="mainPanel">
+      <div class="empty">Choose a region to see quests...</div>
+    </main>
+  </div>
+  <script src="quests.js"></script>
+</body>
+</html>
+<!--
+element colors:
+#a5f3cb - anemo
+#f5d663 - geo
+#ddbbff - electro
+#b7ef2c - dendro
+#06e5fe - hydro
+#ffa96d - pyro
+#cefdfb - cryo
+
+Aether
+Top bar: #292022
+Regions bar: #2e2426
+Main bcg: #332829
+Buttons: #3d3132
+Text: #dcb37b
+Lighter text: #f1e1ba
+
+Lumine
+Top bar: #ffffff
+Regions bar: #f4f4f0
+Main bcg: #f3f3f0
+Buttons: #fafaf0
+Text: #686568
+Lighter text: #99bad2
+
+Anemo
+Top bar: #003233
+Regions bar: #003637
+Main bcg: #003a3a
+Buttons: #004343
+Text: #90c58c
+Lighter text: #a5f3cb
+
+Geo
+Top bar: #2d1500
+Regions bar: #321900
+Main bcg: #371d00
+Buttons: #412600
+Text: #e0a824
+Lighter text: #f5d663
+
+Electro
+Top bar: #150067
+Regions bar: #1a006b
+Main bcg: #1f026e
+Buttons: #290b77
+Text: #c88dc0
+Lighter text: #ddbbff
+
+Dendro
+Top bar: #002e00
+Regions bar: #003200
+Main bcg: #003600
+Buttons: #033f00
+Text: #a2c100
+Lighter text: #b7ef2c
+
+Hydro
+Top bar: #002466
+Regions bar: #00286a
+Main bcg: #002c6d
+Buttons: #003576
+Text: #00b7bf
+Lighter text: #06e5fe
+
+Pyro
+Top bar: #370000
+Regions bar: #3c0000
+Main bcg: #410000
+Buttons: #4b0000
+Text: #ea7b2e
+Lighter text: #ffa96d
+
+Cryo
+Top bar: #063c63
+Regions bar: #0b4067
+Main bcg: #10446a
+Buttons: #1a4d73
+Text: #b9cfbc
+Lighter text: #cefdfb
+

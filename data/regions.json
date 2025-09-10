@@ -1,0 +1,12 @@
+[
+  { "id": "mondstadt", "name": "Mondstadt", "file": "mondstadt.json" },
+  { "id": "dragonspine", "name": "Dragonspine", "file": "dragonspine.json" },
+  { "id": "liyue", "name": "Liyue", "file": "liyue.json" },
+  { "id": "chasm", "name": "The Chasm: Underground Mines", "file": "chasm.json" },
+  { "id": "inazuma", "name": "Inazuma", "file": "inazuma.json" },
+  { "id": "enkanomiya", "name": "Enkanomiya", "file": "enkanomiya.json" },
+  { "id": "sumeru", "name": "Sumeru", "file": "sumeru.json" },
+  { "id": "fontaine", "name": "Fontaine", "file": "fontaine.json" },
+  { "id": "natlan", "name": "Natlan", "file": "natlan.json" },
+  { "id": "nodkrai", "name": "Nod-Krai", "file": "nodkrai.json" }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "Mondstadt",
+  "groups": [
+    {
+      "name": "",
+      "chapters": [
+        {
+          "name": "",
+          "quests": [
+            { "id": "", "title": "" },
+          ]
+        },
+      ]
+    },
+    {
+      "name": "",
+      "quests": [
+        { "id": "", "title": "" },
+      ]
+    }
+  ],
+  "quests": [
+    { "id": "", "title": "" },
+  ]
+}
+// region_sx_cx_qx
+// s = story, c = chapter, q = quest

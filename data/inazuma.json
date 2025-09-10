@@ -1,0 +1,149 @@
+{
+  "name": "Inazuma",
+  "groups": [
+    {
+      "name": "Film Notes",
+      "quests": [
+        { "id": "inazuma_c1_q1", "title": "\"Outlander Brigade!\"" },
+        { "id": "inazuma_c1_q2", "title": "Mushounin" }
+      ]
+    },
+    {
+      "name": "Neko Is a Cat",
+      "quests": [
+        { "id": "inazuma_c2_q1", "title": "Neko is a Cat: Shrine Cleanup" },
+        { "id": "inazuma_c2_q2", "title": "Neko is a Cat: Wooden Shelf" },
+        { "id": "inazuma_c2_q3", "title": "Neko is a Cat: The Children" },
+        { "id": "inazuma_c2_q4", "title": "Neko is a Cat: Shrine Recipe" },
+        { "id": "inazuma_c2_q5", "title": "Neko is a Cat: Cat and Stone" },
+        { "id": "inazuma_c2_q6", "title": "Neko Is a Cat: Stone Human's Troubles" },
+        { "id": "inazuma_c2_q7", "title": "Neko is a Cat: Shrine Canteen" },
+        { "id": "inazuma_c2_q8", "title": "Neko is a Cat: Ding-a-Ling Metal Ball" },
+        { "id": "inazuma_c2_q9", "title": "Neko Is a Cat: A \"Good Turn\" Comes Late" }
+      ]
+    },
+    {
+      "name": "Orobashi's Legacy",
+      "quests": [
+        { "id": "inazuma_c3_q1", "title": "Orobashi's Legacy: Prologue" },
+        { "id": "inazuma_c3_q2", "title": "Orobashi's Legacy: Part I" },
+        { "id": "inazuma_c3_q3", "title": "Orobashi's Legacy: Part II" },
+        { "id": "inazuma_c3_q4", "title": "Orobashi's Legacy: Part III" },
+        { "id": "inazuma_c3_q5", "title": "Orobashi's Legacy: Part IV" },
+        { "id": "inazuma_c3_q6", "title": "Orobashi's Legacy: Part V" }
+      ]
+    },
+    {
+      "name": "Riyou Travel Permit",
+      "quests": [
+        { "id": "inazuma_c4_q1", "title": "Ritou Travel Permit" },
+        { "id": "inazuma_c4_q2", "title": "Chisato's Letter" }
+      ]
+    },
+    {
+      "name": "Sacred Sakura Cleansing Ritual",
+      "quests": [
+        { "id": "inazuma_c5_q1", "title": "A Strange Story in Konda" },
+        { "id": "inazuma_c5_q2", "title": "Sacrificial Offering" },
+        { "id": "inazuma_c5_q3", "title": "Tanuki-Bayashi in the Forest" },
+        { "id": "inazuma_c5_q4", "title": "Cleansing Defilement" },
+        { "id": "inazuma_c5_q5", "title": "Yougou Cleansing" }
+      ]
+    },
+    {
+      "name": "Seirai Stormchasers",
+      "quests": [
+        { "id": "inazuma_c6_q1", "title": "Seirai Stormchasers: Part I" },
+        { "id": "inazuma_c6_q2", "title": "Seirai Stormchasers: Part II" },
+        { "id": "inazuma_c6_q3", "title": "Seirai Stormchasers: Part III" },
+        { "id": "inazuma_c6_q4", "title": "Seirai Stormchasers: Part IV" }
+      ]
+    },
+    {
+      "name": "Tatara Tales",
+      "quests": [
+        { "id": "inazuma_c7_q1", "title": "Tatara Tales" },
+        { "id": "inazuma_c7_q2", "title": "Tatara Tales: Priority Investigation" },
+        { "id": "inazuma_c7_q3", "title": "Tatara Tales: Purification Device" },
+        { "id": "inazuma_c7_q4", "title": "Tatara Tales: Data Collection" },
+        { "id": "inazuma_c7_q5", "title": "Tatara Tales: Process is Everything" },
+        { "id": "inazuma_c7_q6", "title": "Tatara Tales: Functional Test" },
+        { "id": "inazuma_c7_q7", "title": "Tatara Tales: Final Preparations" },
+        { "id": "inazuma_c7_q8", "title": "Tatara Tales: The Last Act" }
+      ]
+    },
+    {
+      "name": "The Gourmet Supremos",
+      "quests": [
+        { "id": "inazuma_c8_q1", "title": "Gourmet Supremos, Assemble!" },
+        { "id": "inazuma_c8_q2", "title": "The Gourmet Supremos: Of Shrines and Sakura" },
+        { "id": "inazuma_c8_q3", "title": "The Gourmet Supremos: The Seashore Strider" },
+        { "id": "inazuma_c8_q4", "title": "The Gourmet Supremos: The Deep Divers" },
+        { "id": "inazuma_c8_q5", "title": "The Gourmet Supremos: On the Road" },
+        { "id": "inazuma_c8_q6", "title": "The Gourmet Supremos: The Importance of Eating Well" }
+      ]
+    },
+    {
+      "name": "The Moon-Bathed Deep",
+      "quests": [
+        { "id": "inazuma_c9_q1", "title": "The Moon-Bathed Deep" },
+        { "id": "inazuma_c9_q2", "title": "\"Eye of Watatsumi\"" },
+        { "id": "inazuma_c9_q3", "title": "\"Fang of Watatsumi\"" },
+        { "id": "inazuma_c9_q4", "title": "\"Fin of Watatsumi\"" },
+        { "id": "inazuma_c9_q5", "title": "\"Tail of Watatsumi\"" },
+        { "id": "inazuma_c9_q6", "title": "\"Heart of Watatsumi\"" }
+      ]
+    },
+    {
+      "name": "The Very Special Fortune Slip",
+      "quests": [
+        { "id": "inazuma_c10_q1", "title": "Shuumatsuban Operations" },
+        { "id": "inazuma_c10_q2", "title": "The Replacement's Secret" },
+        { "id": "inazuma_c10_q3", "title": "Where the Dandelions Find Rest" }
+      ]
+    },
+    {
+      "name": "Through the Mists",
+      "quests": [
+        { "id": "inazuma_c11_q1", "title": "A Particularly Particular Author" },
+        { "id": "inazuma_c11_q2", "title": "Octave of the Maushiro" },
+        { "id": "inazuma_c11_q3", "title": "The Sea of Fog and the Rite of the Trees" },
+        { "id": "inazuma_c11_q4", "title": "The Sun-Wheel and Mt. Kanna" }
+      ]
+    }
+  ],
+  "quests": [
+    { "id": "inazuma_q1", "title": "The Seventh Samurai" },
+    { "id": "inazuma_q2", "title": "Battle of Revenge" },
+    { "id": "inazuma_q3", "title": "Clean House" },
+    { "id": "inazuma_q4", "title": "Divine Plant of the Depths" },
+    { "id": "inazuma_q5", "title": "Dreams of Sword Art" },
+    { "id": "inazuma_q6", "title": "Fate of a Fighter" },
+    { "id": "inazuma_q7", "title": "Fertilizer... Salesperson?" },
+    { "id": "inazuma_q8", "title": "Gazing Three Thousand Miles Away" },
+    { "id": "inazuma_q9", "title": "Hiromi's Watch" },
+    { "id": "inazuma_q10", "title": "Home Lies Over the Ocean" },
+    { "id": "inazuma_q11", "title": "In Another Land" },
+    { "id": "inazuma_q12", "title": "International Travel Log" },
+    { "id": "inazuma_q13", "title": "Katheryne in Inazuma" },
+    { "id": "inazuma_q14", "title": "O Archon, Have I Done Right?" },
+    { "id": "inazuma_q15", "title": "Omni-Ubiquity Net" },
+    { "id": "inazuma_q16", "title": "Pizza From Another Land" },
+    { "id": "inazuma_q17", "title": "Relics of Seirai" },
+    { "id": "inazuma_q18", "title": "Reminiscence of Seirai" },
+    { "id": "inazuma_q19", "title": "Sakura Arborism" },
+    { "id": "inazuma_q20", "title": "Sinister Instruction" },
+    { "id": "inazuma_q21", "title": "Solitary Sea-Beast" },
+    { "id": "inazuma_q22", "title": "Storytelling Method" },
+    { "id": "inazuma_q23", "title": "Temaria Game" },
+    { "id": "inazuma_q24", "title": "The Art of Horticulture" },
+    { "id": "inazuma_q25", "title": "The Commission's Commission" },
+    { "id": "inazuma_q26", "title": "The Farmer's Treasure" },
+    { "id": "inazuma_q27", "title": "The Narukami Trail" },
+    { "id": "inazuma_q28", "title": "The Ritou Road" },
+    { "id": "inazuma_q29", "title": "The Saga of Mr. Forgetful" },
+    { "id": "inazuma_q30", "title": "The Still Water's Flow" },
+    { "id": "inazuma_q31", "title": "Treatment on the Island" },
+    { "id": "inazuma_q32", "title": "Yae Publishing House's Invitation" }
+  ]
+}

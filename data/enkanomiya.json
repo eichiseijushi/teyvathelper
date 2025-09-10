@@ -1,0 +1,42 @@
+{
+  "name": "Enkanomiya",
+  "groups": [
+    {
+      "name": "Erebos' Secret",
+      "quests": [
+        { "id": "enkanomiya_c1_q1", "title": "The Three Great Martial Trials" },
+        { "id": "enkanomiya_c1_q2", "title": "Kunado's Trial" },
+        { "id": "enkanomiya_c1_q3", "title": "Yachimatahiko's Trial" },
+        { "id": "enkanomiya_c1_q4", "title": "Yachimatahime's Trial" }
+      ]
+    },
+    {
+      "name": "From Dusk to Dawn in Byakuyakoku",
+      "quests": [
+        { "id": "enkanomiya_c2_q1", "title": "The Entrance to Tokoyo" },
+        { "id": "enkanomiya_c2_q2", "title": "The Subterranean Trials of Drake and Serpent" },
+        { "id": "enkanomiya_c2_q3", "title": "The Trail of Drake and Serpent" },
+        { "id": "enkanomiya_c2_q4", "title": "Dreams in the Gaps" },
+        { "id": "enkanomiya_c2_q5", "title": "The Heart of Ouroboros" }
+      ]
+    },
+    {
+      "name": "Hyperion's Dirge",
+      "quests": [
+        { "id": "enkanomiya_c3_q1", "title": "Hyperion's Dirge" },
+        { "id": "enkanomiya_c3_q2", "title": "Narrow Inquiry" },
+        { "id": "enkanomiya_c3_q3", "title": "Serpent's Heart Inquiry" },
+        { "id": "enkanomiya_c3_q4", "title": "Temple Inquiry" }
+      ]
+    }
+  ],
+  "quests": [
+    { "id": "enkanomiya_q1", "title": "A Glimpse Into the Pale Night" },
+    { "id": "enkanomiya_q2", "title": "Antigonus" },
+    { "id": "enkanomiya_q3", "title": "Collection of Dragons and Snakes" },
+    { "id": "enkanomiya_q4", "title": "Date's Challenge" },
+    { "id": "enkanomiya_q5", "title": "Lotus Eater" },
+    { "id": "enkanomiya_q6", "title": "The Phaethons' Syrtos" },
+    { "id": "enkanomiya_q7", "title": "Tricolor File" }
+  ]
+}

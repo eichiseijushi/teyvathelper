@@ -1,0 +1,594 @@
+{
+    "name": "Fontaine",
+    "groups": [
+        {
+            "name": "Ancient Colors",
+            "chapters": [
+                {
+                    "name": "Act I: A Brush of Seafoam and Crimson",
+                    "quests": [
+                        {
+                            "id": "fontaine_s1_c1_q1",
+                            "title": "The Illusion's Finishings"
+                        }
+                    ]
+                },
+                {
+                    "name": "Act II: A Gradient of Dreams and Ochre",
+                    "quests": [
+                        {
+                            "id": "fontaine_s1_c2_q1",
+                            "title": "There Will Come Soft Rains"
+                        }
+                    ]
+                },
+                {
+                    "name": "Act III: Blue Longing of Heart and Moon",
+                    "quests": [
+                        {
+                            "id": "fontaine_s1_c3_q1",
+                            "title": "Limner, Dreamer, and Robotic Dog"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ann of the Narzissenkreuz",
+            "chapters": [
+                {
+                    "name": "Act I: The Narzissenkreuz Adventure",
+                    "quests": [
+                        {
+                            "id": "fontaine_s2_c1_q1",
+                            "title": "The Narzissenkreuz Adventure"
+                        },
+                        {
+                            "id": "fontaine_s2_c1_q2",
+                            "title": "The Story of \"the Princess\" and \"the Adventure Team\""
+                        }
+                    ]
+                },
+                {
+                    "name": "Act II: Kingdom Through the Looking-Glass",
+                    "quests": [
+                        {
+                            "id": "fontaine_s2_c2_q1",
+                            "title": "Ann's Story"
+                        }
+                    ]
+                },
+                {
+                    "name": "Act III: \"If She No Longer Dreams of You...\"",
+                    "quests": [
+                        {
+                            "id": "fontaine_s2_c3_q1",
+                            "title": "Mary-Ann's Story"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Canticles of Harmony",
+            "chapters": [
+                {
+                    "name": "Prelude: Petrichorror Dream",
+                    "quests": [
+                        {
+                            "id": "fontaine_s3_c1_q1",
+                            "title": "The Shadow Over Petrichor"
+                        }
+                    ]
+                },
+                {
+                    "name": "First Movement: In the Hall of the Sea King",
+                    "quests": [
+                        {
+                            "id": "fontaine_s3_c2_q1",
+                            "title": "Underwater Nocturne"
+                        }
+                    ]
+                },
+                {
+                    "name": "Second Movement: Prisoner In Shackles",
+                    "quests": [
+                        {
+                            "id": "fontaine_s3_c3_q1",
+                            "title": "The Last Day of Remuria"
+                        }
+                    ]
+                },
+                {
+                    "name": "Third Movement: Pharsalia's Rhapsody",
+                    "quests": [
+                        {
+                            "id": "fontaine_s3_c4_q1",
+                            "title": "Gradus ad Capitolium"
+                        },
+                        {
+                            "id": "fontaine_s3_c4_q2",
+                            "title": "Golden Aqueduct Reconstruction: Part I"
+                        },
+                        {
+                            "id": "fontaine_s3_c4_q3",
+                            "title": "Golden Aqueduct Reconstruction: Part II"
+                        }
+                    ]
+                },
+                {
+                    "name": "Finale: Requiem",
+                    "quests": [
+                        {
+                            "id": "fontaine_s3_c5_q1",
+                            "title": "Fortune Plango Vulnera"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "In the Wake of Narcissus",
+            "chapters": [
+                {
+                    "name": "Act I: Search in the Algae Sea",
+                    "quests": [
+                        {
+                            "id": "fontaine_s4_c1_q1",
+                            "title": "Search in the Algae Sea"
+                        },
+                        {
+                            "id": "fontaine_s4_c1_q2",
+                            "title": "Cupid's Lover"
+                        },
+                        {
+                            "id": "fontaine_s4_c1_q3",
+                            "title": "Meteoric Lance"
+                        },
+                        {
+                            "id": "fontaine_s4_c1_q4",
+                            "title": "Muse's Mother"
+                        },
+                        {
+                            "id": "fontaine_s4_c1_q5",
+                            "title": "Thalia and Melpomene"
+                        }
+                    ]
+                },
+                {
+                    "name": "Act II: Savior's Wake",
+                    "quests": [
+                        {
+                            "id": "fontaine_s4_c2_q1",
+                            "title": "Savior's Wake"
+                        }
+                    ]
+                },
+                {
+                    "name": "Act III: Waking from the Great Dream",
+                    "quests": [
+                        {
+                            "id": "fontaine_s4_c3_q1",
+                            "title": "Waking from the Great Dream"
+                        }
+                    ]
+                },
+                {
+                    "name": "Act IV: Rowboat's Wake",
+                    "quests": [
+                        {
+                            "id": "fontaine_s4_c4_q1",
+                            "title": "Rowboat's Wake"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Questioning Melusine and Answering Machine",
+            "chapters": [
+                {
+                    "name": "Act I: Vagrants and Scamps",
+                    "quests": [
+                        {
+                            "id": "fontaine_s5_c1_q1",
+                            "title": "Vagrants and Scamps"
+                        }
+                    ]
+                },
+                {
+                    "name": "Act II: The Red and the Black",
+                    "quests": [
+                        {
+                            "id": "fontaine_s5_c2_q1",
+                            "title": "The Red and the Black"
+                        }
+                    ]
+                },
+                {
+                    "name": "Act III: Questions and Answers",
+                    "quests": [
+                        {
+                            "id": "fontaine_s5_c3_q1",
+                            "title": "Questions and Answers"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fontaine Research Institute Chronicles",
+            "quests": [
+                {
+                    "id": "fontaine_c1_q1",
+                    "title": "Fontaine Research Institute, Stagnating in the Rubble"
+                },
+                {
+                    "id": "fontaine_c1_q2",
+                    "title": "Go to the Institute Dormitories and retrieve the Anchor"
+                },
+                {
+                    "id": "fontaine_c1_q3",
+                    "title": "Go to the Institute of Clockwork Applications and retrieve the Anchor"
+                }
+            ]
+        },
+        {
+            "name": "Scenes from Life in Meropide",
+            "quests": [
+                {
+                    "id": "fontaine_c2_q1",
+                    "title": "Scenes from Life in Meropide: A Raw Deal"
+                },
+                {
+                    "id": "fontaine_c2_q2",
+                    "title": "Scenes from Life in Meropide: Chit-Chat"
+                },
+                {
+                    "id": "fontaine_c2_q3",
+                    "title": "Scenes from Life in Meropide: Dead End"
+                },
+                {
+                    "id": "fontaine_c2_q4",
+                    "title": "Scenes from Life in Meropide: Fists of Fury"
+                },
+                {
+                    "id": "fontaine_c2_q5",
+                    "title": "Scenes from Life in Meropide: Safe Operation"
+                },
+                {
+                    "id": "fontaine_c2_q6",
+                    "title": "Scenes from Life in Meropide: Treat the Symptoms"
+                },
+                {
+                    "id": "fontaine_c2_q7",
+                    "title": "Scenes from Life in Meropide: Unfinished Task"
+                },
+                {
+                    "id": "fontaine_c2_q8",
+                    "title": "Scenes from Life in Meropide: Every Debt has a Creditor"
+                },
+                {
+                    "id": "fontaine_c2_q9",
+                    "title": "Scenes from Life in Meropide: The Art of Negotiation"
+                },
+                {
+                    "id": "fontaine_c2_q10",
+                    "title": "Scenes from Life in Meropide: Visible Hands"
+                },
+                {
+                    "id": "fontaine_c2_q11",
+                    "title": "Scenes from Life in Meropide: An Actor's Training"
+                },
+                {
+                    "id": "fontaine_c2_q12",
+                    "title": "Scenes from Life in Meropide: Memories"
+                }
+            ]
+        },
+        {
+            "name": "The Wild Fairy of Erinnyes",
+            "quests": [
+                {
+                    "id": "fontaine_c3_q1",
+                    "title": "Foggy Forest Path"
+                },
+                {
+                    "id": "fontaine_c3_q2",
+                    "title": "Furious Mouth of the Spring"
+                },
+                {
+                    "id": "fontaine_c3_q3",
+                    "title": "Wilting Weeping Willow"
+                },
+                {
+                    "id": "fontaine_c3_q4",
+                    "title": "Within the Depths of Erinnyes"
+                }
+            ]
+        },
+        {
+            "name": "Unfinished Comedy",
+            "quests": [
+                {
+                    "id": "fontaine_c4_q1",
+                    "title": "Game of the Rich"
+                },
+                {
+                    "id": "fontaine_c4_q2",
+                    "title": "An Eye for an Eye"
+                },
+                {
+                    "id": "fontaine_c4_q3",
+                    "title": "Hereafter"
+                }
+            ]
+        }
+    ],
+    "quests": [
+        {
+            "id": "fontaine_q1",
+            "title": "A Certain Notice"
+        },
+        {
+            "id": "fontaine_q2",
+            "title": "A Certain Stamp"
+        },
+        {
+            "id": "fontaine_q3",
+            "title": "A Certain Trifle"
+        },
+        {
+            "id": "fontaine_q4",
+            "title": "A Fontainian Message"
+        },
+        {
+            "id": "fontaine_q5",
+            "title": "A Letter"
+        },
+        {
+            "id": "fontaine_q6",
+            "title": "An Expected Lie"
+        },
+        {
+            "id": "fontaine_q7",
+            "title": "An Expected Plan"
+        },
+        {
+            "id": "fontaine_q8",
+            "title": "Another Horizon of Adventure"
+        },
+        {
+            "id": "fontaine_q9",
+            "title": "Aqueous Tidemarks"
+        },
+        {
+            "id": "fontaine_q10",
+            "title": "Book of Esoteric Revelations"
+        },
+        {
+            "id": "fontaine_q11",
+            "title": "Both Brains and Brawn"
+        },
+        {
+            "id": "fontaine_q12",
+            "title": "Danger Lurks Everywhere in Fontaine"
+        },
+        {
+            "id": "fontaine_q13",
+            "title": "Daydreams Beyond Space and Time"
+        },
+        {
+            "id": "fontaine_q14",
+            "title": "Echoes of the Ancient World"
+        },
+        {
+            "id": "fontaine_q15",
+            "title": "Fishing Game"
+        },
+        {
+            "id": "fontaine_q16",
+            "title": "For Yesterday and Tomorrow"
+        },
+        {
+            "id": "fontaine_q17",
+            "title": "Free Verse"
+        },
+        {
+            "id": "fontaine_q18",
+            "title": "Good Stuff, but Terrible Taste (Belleau Region)"
+        },
+        {
+            "id": "fontaine_q19",
+            "title": "Good Stuff, but Terrible Taste (Central Beryl Region)"
+        },
+        {
+            "id": "fontaine_q20",
+            "title": "Good Stuff, but Terrible Taste (Court of Fontaine Region)"
+        },
+        {
+            "id": "fontaine_q21",
+            "title": "Good Stuff, but Terrible Taste (Southeast Beryl Region)"
+        },
+        {
+            "id": "fontaine_q22",
+            "title": "Good Stuff, but Terrible Taste (West Beryl Region)"
+        },
+        {
+            "id": "fontaine_q23",
+            "title": "Good Stuff, but Terrible Taste - Continued"
+        },
+        {
+            "id": "fontaine_q24",
+            "title": "Happy Birthday"
+        },
+        {
+            "id": "fontaine_q25",
+            "title": "Hey, This Isn't Pumpkin Soup..."
+        },
+        {
+            "id": "fontaine_q26",
+            "title": "Impromptu Poem of the Crimson Dawn"
+        },
+        {
+            "id": "fontaine_q27",
+            "title": "In Expert Company? (I)"
+        },
+        {
+            "id": "fontaine_q28",
+            "title": "In Expert Company? (II)"
+        },
+        {
+            "id": "fontaine_q29",
+            "title": "In Search of Lost Time"
+        },
+        {
+            "id": "fontaine_q30",
+            "title": "In Search of Lost Time: North"
+        },
+        {
+            "id": "fontaine_q31",
+            "title": "In Search of Lost Time: South"
+        },
+        {
+            "id": "fontaine_q32",
+            "title": "In Search of Lost Time: West"
+        },
+        {
+            "id": "fontaine_q33",
+            "title": "Initial Facts"
+        },
+        {
+            "id": "fontaine_q34",
+            "title": "Latecoming Homecoming"
+        },
+        {
+            "id": "fontaine_q35",
+            "title": "Leroy: Beautiful Friends"
+        },
+        {
+            "id": "fontaine_q36",
+            "title": "Leroy: Dying Flash"
+        },
+        {
+            "id": "fontaine_q37",
+            "title": "Leroy: Firing Squad"
+        },
+        {
+            "id": "fontaine_q38",
+            "title": "Leroy: Hangman's Noose"
+        },
+        {
+            "id": "fontaine_q39",
+            "title": "Leroy: High Noon"
+        },
+        {
+            "id": "fontaine_q40",
+            "title": "Leroy: Queen of the Night's Aria"
+        },
+        {
+            "id": "fontaine_q41",
+            "title": "Leroy: Under Guard"
+        },
+        {
+            "id": "fontaine_q42",
+            "title": "Our Purpose Is in Another Canal"
+        },
+        {
+            "id": "fontaine_q43",
+            "title": "Pursuit (Part 1)"
+        },
+        {
+            "id": "fontaine_q44",
+            "title": "Pursuit (Part 2)"
+        },
+        {
+            "id": "fontaine_q45",
+            "title": "Riddles Awaiting Answers"
+        },
+        {
+            "id": "fontaine_q46",
+            "title": "Road to the Singularity"
+        },
+        {
+            "id": "fontaine_q47",
+            "title": "Semi-Automatic Forging"
+        },
+        {
+            "id": "fontaine_q48",
+            "title": "Steambird Interview"
+        },
+        {
+            "id": "fontaine_q49",
+            "title": "Still Mouthwatering!"
+        },
+        {
+            "id": "fontaine_q50",
+            "title": "Strange Stone Chronicle (Part 1)"
+        },
+        {
+            "id": "fontaine_q51",
+            "title": "Strange Stone Chronicle (Part 2)"
+        },
+        {
+            "id": "fontaine_q52",
+            "title": "Strange Stone Chronicle (Part 3)"
+        },
+        {
+            "id": "fontaine_q53",
+            "title": "The Final Question"
+        },
+        {
+            "id": "fontaine_q54",
+            "title": "The Fountain Flows Again"
+        },
+        {
+            "id": "fontaine_q55",
+            "title": "The Lone Phantom Sail"
+        },
+        {
+            "id": "fontaine_q56",
+            "title": "The Long-Failed \"Graph Adversarial Technology\"..."
+        },
+        {
+            "id": "fontaine_q57",
+            "title": "The Three Primary Colors of the Solar Corona"
+        },
+        {
+            "id": "fontaine_q58",
+            "title": "Through the Looking Glass"
+        },
+        {
+            "id": "fontaine_q59",
+            "title": "Treacherous Light of the Depths"
+        },
+        {
+            "id": "fontaine_q60",
+            "title": "Truly Mouthwatering!"
+        },
+        {
+            "id": "fontaine_q61",
+            "title": "Unfinished Story"
+        },
+        {
+            "id": "fontaine_q62",
+            "title": "Upon a Flowery Field of Grass"
+        },
+        {
+            "id": "fontaine_q63",
+            "title": "Villains"
+        },
+        {
+            "id": "fontaine_q64",
+            "title": "Were It So Easy"
+        },
+        {
+            "id": "fontaine_q65",
+            "title": "Where His Life Lies"
+        },
+        {
+            "id": "fontaine_q66",
+            "title": "Wish-Fulfilling Treasure Hunt"
+        }
+    ]
+}

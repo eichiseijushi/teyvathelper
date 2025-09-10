@@ -1,0 +1,386 @@
+{
+    "name": "Natlan",
+    "groups": [
+        {
+            "name": "Lost Traveler in the Ashen Realm",
+            "chapters": [
+                {
+                    "name": "Act I: City Buried By Ash",
+                    "quests": [
+                        {
+                            "id": "natlan_s1_c1_q1",
+                            "title": "Vaulting the Wall of Morning Mist"
+                        }
+                    ]
+                },
+                {
+                    "name": "Act II: A Dream of Gazing Upon the Distant Sky",
+                    "quests": [
+                        {
+                            "id": "natlan_s1_c2_q1",
+                            "title": "Adventure in the Land of Mists"
+                        },
+                        {
+                            "id": "natlan_s1_c2_q2",
+                            "title": "Palace of the Vision Serpent"
+                        },
+                        {
+                            "id": "natlan_s1_c2_q3",
+                            "title": "To the Sky-Road"
+                        }
+                    ]
+                },
+                {
+                    "name": "Act III: The Tonatiuh Quivers",
+                    "quests": [
+                        {
+                            "id": "natlan_s1_c3_q1",
+                            "title": "The Other Side of the Sky"
+                        },
+                        {
+                            "id": "natlan_s1_c3_q2",
+                            "title": "The Flowing Primal Flame (Part 1)"
+                        },
+                        {
+                            "id": "natlan_s1_c3_q3",
+                            "title": "The Flowing Primal Flame (Part 2)"
+                        },
+                        {
+                            "id": "natlan_s1_c3_q4",
+                            "title": "The Flowing Primal Flame (Part 3)" 
+                        },
+                        {
+                            "id": "natlan_s1_c3_q5",
+                            "title": "Moment of Awakening"
+                        }
+                    ]
+                },
+                {
+                    "name": "Epilogue: The Chosen One's Promise",
+                    "quests": [
+                        {
+                            "id": "fontaine_s1_c4_q1",
+                            "title": "The Chosen One's Promise"
+                        }
+                    ]
+                }
+            ]
+        },
+        
+    {
+        "name": "Finale Emberforged",
+        "quests": [
+            {
+                "id": "natlan_c1_q1",
+                "title": "An Omen of Annihilation and the Final Entreaty"
+            }
+        ]
+    },
+    {
+        "name": "Between Pledge and Forgettance",
+        "quests": [
+            {
+                "id": "natlan_c2_q1",
+                "title": "Lost in the Woods"
+            },
+            {
+                "id": "natlan_c2_q2",
+                "title": "Rite of the Bold"
+            },
+            {
+                "id": "natlan_c2_q3",
+                "title": "Revelations from the Past"
+            }
+        ]
+    },
+    {
+        "name": "Chronicler of the Crumbling City",
+        "quests": [
+            {
+                "id": "natlan_c3_q1",
+                "title": "The Frozen, Rekindling Land"
+            },
+            {
+                "id": "natlan_c3_q2",
+                "title": "Sealed Site of Sacrifice"
+            },
+            {
+                "id": "natlan_c3_q3",
+                "title": "The Forsaken Sea of Wisdom"
+            },
+            {
+                "id": "natlan_c3_q4",
+                "title": "In Search of a Hidden Heart"
+            },
+            {
+                "id": "natlan_c3_q5",
+                "title": "Once, the Sacred Seat of Judgment"
+            },
+            {
+                "id": "natlan_c3_q6",
+                "title": "Where Once Force Was Reversed"
+            },
+            {
+                "id": "natlan_c3_q7",
+                "title": "Where Once There Was a Calculation Array"
+            },
+            {
+                "id": "natlan_c3_q8",
+                "title": "Where Once There Were Arms Aplenty"
+            },
+            {
+                "id": "natlan_c3_q9",
+                "title": "The End of the Road"
+            },
+            {
+                "id": "natlan_c3_q10",
+                "title": "As the Burning Sun Sears Shadows"
+            }
+        ]
+    },
+    {
+        "name": "From One Case to Another",
+        "quests": [
+            {
+                "id": "natlan_c4_q1",
+                "title": "Incidents Are Ever Sudden"
+            },
+            {
+                "id": "natlan_c4_q2",
+                "title": "Beat the Clock: 24 Hours"
+            },
+            {
+                "id": "natlan_c4_q3",
+                "title": "An Air Race and an Alibi"
+            },
+            {
+                "id": "natlan_c4_q4",
+                "title": "Farewell, Final Saurus Cracker"
+            }
+        ]
+    },
+    {
+        "name": "In the Footsteps of the Chosen of Dragons",
+        "quests": [
+            {
+                "id": "natlan_c5_q1",
+                "title": "A Saurian Lover's Ordinary Days"
+            },
+            {
+                "id": "natlan_c5_q2",
+                "title": "Feeling Like Fish Today!"
+            },
+            {
+                "id": "natlan_c5_q3",
+                "title": "Friends of Fire and Water"
+            },
+            {
+                "id": "natlan_c5_q4",
+                "title": "Gifts and Gifts in Return"
+            },
+            {
+                "id": "natlan_c5_q5",
+                "title": "Is \"Intensity\" Really the Key?"
+            },
+            {
+                "id": "natlan_c5_q6",
+                "title": "Lies and Promises"
+            },
+            {
+                "id": "natlan_c5_q7",
+                "title": "Lights, Kamera, Action!"
+            },
+            {
+                "id": "natlan_c5_q8",
+                "title": "Sauro-Vet's Dilemma"
+            },
+            {
+                "id": "natlan_c5_q9",
+                "title": "Special Friends"
+            },
+            {
+                "id": "natlan_c5_q10",
+                "title": "Stones, Coconuts, and Saurian Traffickers"
+            },
+            {
+                "id": "natlan_c5_q11",
+                "title": "Tepetlisaurus Hide-and-Seek"
+            },
+            {
+                "id": "natlan_c5_q12",
+                "title": "The Lone Isle Named Night"
+            },
+            {
+                "id": "natlan_c5_q13",
+                "title": "Treasures and Collectors"
+            },
+            {
+                "id": "natlan_c5_q14",
+                "title": "Waiting For Seeds to Sprout"
+            },
+            {
+                "id": "natlan_c5_q15",
+                "title": "Weighty Wings"
+            },
+            {
+                "id": "natlan_c5_q16",
+                "title": "Someday, We All Must Walk Alone"
+            }
+        ]
+    },
+    {
+        "name": "Path to the Flaming Peaks",
+        "quests": [
+            {
+                "id": "natlan_c6_q1",
+                "title": "Nahuatzin's Leap"
+            }
+        ]
+    },
+    {
+        "name": "Shadows of the Mountains",
+        "quests": [
+            {
+                "id": "natlan_c7_q1",
+                "title": "Beneath the Crystal Rock"
+            },
+            {
+                "id": "natlan_c7_q2",
+                "title": "Peace to the Slumbering"
+            }
+        ]
+    },
+    {
+        "name": "Tale of Dreams Plucked From Fire",
+        "quests": [
+            {
+                "id": "natlan_c8_q1",
+                "title": "Tracer No Tracing"
+            },
+            {
+                "id": "natlan_c8_q2",
+                "title": "Seeker No Finding"
+            }
+        ]
+    }
+    ],
+    "quests": 
+        [
+    {
+        "id": "natlan_q1",
+        "title": "A Brief History of Rocks"
+    },
+    {
+        "id": "natlan_q2",
+        "title": "A Saurian Returns to the Nest"
+    },
+    {
+        "id": "natlan_q3",
+        "title": "All Good Reunions Follow a Search"
+    },
+    {
+        "id": "natlan_q4",
+        "title": "Charge Forward! Go, Go, Go!"
+    },
+    {
+        "id": "natlan_q5",
+        "title": "Come Fly With Me"
+    },
+    {
+        "id": "natlan_q6",
+        "title": "Dancin' in the Moonlight"
+    },
+    {
+        "id": "natlan_q7",
+        "title": "Dreamy Paititi"
+    },
+    {
+        "id": "natlan_q8",
+        "title": "Encounters Always Happen on a Holiday"
+    },
+    {
+        "id": "natlan_q9",
+        "title": "Every Aspect of a Warrior"
+    },
+    {
+        "id": "natlan_q10",
+        "title": "Investigator of Ancient Ruins"
+    },
+    {
+        "id": "natlan_q11",
+        "title": "Molting Season"
+    },
+    {
+        "id": "natlan_q12",
+        "title": "Open Your Heart to Me"
+    },
+    {
+        "id": "natlan_q13",
+        "title": "Ripe For Trouble"
+    },
+    {
+        "id": "natlan_q14",
+        "title": "Shine On, Pipilpan Idol!"
+    },
+    {
+        "id": "natlan_q15",
+        "title": "Sing, Ho, For the Greatness of Fat!"
+    },
+    {
+        "id": "natlan_q16",
+        "title": "Stand by Me"
+    },
+    {
+        "id": "natlan_q17",
+        "title": "Strange Encounter of the Tete Isle Kind"
+    },
+    {
+        "id": "natlan_q18",
+        "title": "Stride on Rainbows, Split the Waves"
+    },
+    {
+        "id": "natlan_q19",
+        "title": "The Attack of the... Purple Tepetlisaurus?"
+    },
+    {
+        "id": "natlan_q20",
+        "title": "The Case of the Crafting Bench"
+    },
+    {
+        "id": "natlan_q21",
+        "title": "The Last Survivor of Tenochtzitoc"
+    },
+    {
+        "id": "natlan_q22",
+        "title": "The Mystery of Tecoloapan Beach"
+    },
+    {
+        "id": "natlan_q23",
+        "title": "The Road Ahead"
+    },
+    {
+        "id": "natlan_q24",
+        "title": "The Way Into the Mountain"
+    },
+    {
+        "id": "natlan_q25",
+        "title": "To the Night, What is the Night's"
+    },
+    {
+        "id": "natlan_q26",
+        "title": "To Wish Upon a Star"
+    },
+    {
+        "id": "natlan_q27",
+        "title": "Toward Red-Hot Adventure!"
+    },
+    {
+        "id": "natlan_q28",
+        "title": "Traces of Chroma"
+    },
+    {
+        "id": "natlan_q29",
+        "title": "Twisted Extension"
+    }
+    ]
+}

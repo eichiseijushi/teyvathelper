@@ -1,0 +1,311 @@
+{
+    "name": "Liyue",
+    "groups": [
+        {
+            "name": "Chenyu's Blessings of Sunken Jade",
+            "quests": [
+                {
+                    "id": "liyue_c1_q1",
+                    "title": "Qiaoying of the Sacred Mountain"
+                },
+                {
+                    "id": "liyue_c1_q2",
+                    "title": "Floating Jade, Treasure of Chenyu"
+                },
+                {
+                    "id": "liyue_c1_q3",
+                    "title": "An Ancient Sacrifice of Sacred Brocade"
+                }
+            ]
+        },
+        {
+            "name": "Hereafter",
+            "quests": [
+                {
+                    "id": "liyue_c2_q1",
+                    "title": "Hereafter: The Trail of Pervases"
+                },
+                {
+                    "id": "liyue_c2_q2",
+                    "title": "Hereafter: All is Well"
+                },
+                {
+                    "id": "liyue_c2_q3",
+                    "title": "Hereafter: Return to the Mountains"
+                }
+            ]
+        },
+        {
+            "name": "The Chasm Delvers",
+            "quests": [
+                {
+                    "id": "liyue_c3_q1",
+                    "title": "Surreptitious Seven-Star Seal Sundering"
+                },
+                {
+                    "id": "liyue_c3_q2",
+                    "title": "The Chasm Charters"
+                }
+            ]
+        },
+        {
+            "name": "Stygian Onslaught",
+            "quests": [
+                {
+                    "id": "liyue_c4_q1",
+                    "title": "Tumult Subduer"
+                },
+                {
+                    "id": "liyue_c4_q2",
+                    "title": "A Defensive Strategy"
+                }
+            ]
+        }
+    ],
+    "quests": [
+        {
+            "id": "liyue_q1",
+            "title": "(There's) No Restoring This Past Land of Beauty"
+        },
+        {
+            "id": "liyue_q2",
+            "title": "...What Do Adventurers Do Again?"
+        },
+        {
+            "id": "liyue_q3",
+            "title": "A Cliff-Side Hero's Past"
+        },
+        {
+            "id": "liyue_q4",
+            "title": "A Dish Beyond Mortal Ken"
+        },
+        {
+            "id": "liyue_q5",
+            "title": "A Little Game"
+        },
+        {
+            "id": "liyue_q6",
+            "title": "A Lone Ship In Guyun"
+        },
+        {
+            "id": "liyue_q7",
+            "title": "A Provisional Arrangement"
+        },
+        {
+            "id": "liyue_q8",
+            "title": "A Quiet Day in Liyue Harbor"
+        },
+        {
+            "id": "liyue_q9",
+            "title": "A Teapot to Call Home: Part I"
+        },
+        {
+            "id": "liyue_q10",
+            "title": "A Teapot to Call Home: Part II"
+        },
+        {
+            "id": "liyue_q11",
+            "title": "A Wangshan Walk to Remember"
+        },
+        {
+            "id": "liyue_q12",
+            "title": "An Adeptal Summons"
+        },
+        {
+            "id": "liyue_q13",
+            "title": "An Ode to Yonder City"
+        },
+        {
+            "id": "liyue_q14",
+            "title": "And This Treasure Goes To..."
+        },
+        {
+            "id": "liyue_q15",
+            "title": "Big Business"
+        },
+        {
+            "id": "liyue_q16",
+            "title": "Blackcliff Woes"
+        },
+        {
+            "id": "liyue_q17",
+            "title": "Book in the Woods"
+        },
+        {
+            "id": "liyue_q18",
+            "title": "Changchang's Little Friend"
+        },
+        {
+            "id": "liyue_q19",
+            "title": "Chili Con Cloudy"
+        },
+        {
+            "id": "liyue_q20",
+            "title": "Endless Research"
+        },
+        {
+            "id": "liyue_q21",
+            "title": "Fishing For Jade"
+        },
+        {
+            "id": "liyue_q22",
+            "title": "Garcia's Paean"
+        },
+        {
+            "id": "liyue_q23",
+            "title": "Luhua Landscape"
+        },
+        {
+            "id": "liyue_q24",
+            "title": "Ministry Missions"
+        },
+        {
+            "id": "liyue_q25",
+            "title": "Necessary Procedures"
+        },
+        {
+            "id": "liyue_q26",
+            "title": "Nine Pillars of Peace"
+        },
+        {
+            "id": "liyue_q27",
+            "title": "Old Tastes Die Hard"
+        },
+        {
+            "id": "liyue_q28",
+            "title": "On the Stage, Behind the Stage"
+        },
+        {
+            "id": "liyue_q29",
+            "title": "Our Chenyu Vale Trek"
+        },
+        {
+            "id": "liyue_q30",
+            "title": "Overstretched"
+        },
+        {
+            "id": "liyue_q31",
+            "title": "Perfect Shot"
+        },
+        {
+            "id": "liyue_q32",
+            "title": "Pressing Deadlines"
+        },
+        {
+            "id": "liyue_q33",
+            "title": "Qiaoying, the Village of Many Tales"
+        },
+        {
+            "id": "liyue_q34",
+            "title": "Return of the Jade Chamber?"
+        },
+        {
+            "id": "liyue_q35",
+            "title": "Says He Who Seeks Stone"
+        },
+        {
+            "id": "liyue_q36",
+            "title": "Scrolls and Sword Manuals of Guhua"
+        },
+        {
+            "id": "liyue_q37",
+            "title": "Share Not Your Treasures"
+        },
+        {
+            "id": "liyue_q38",
+            "title": "Shrouded Vale, Hidden Hero"
+        },
+        {
+            "id": "liyue_q39",
+            "title": "Silently the Butterfly Crosses the Valley"
+        },
+        {
+            "id": "liyue_q40",
+            "title": "Snapshots"
+        },
+        {
+            "id": "liyue_q41",
+            "title": "Stolen, by the Rightful Owner"
+        },
+        {
+            "id": "liyue_q42",
+            "title": "Temporary Acclimatization"
+        },
+        {
+            "id": "liyue_q43",
+            "title": "The Adventurers' Guild's Affairs"
+        },
+        {
+            "id": "liyue_q44",
+            "title": "The Chi of Yore"
+        },
+        {
+            "id": "liyue_q45",
+            "title": "The Cloud-Padded Path to the Chiwang Repose"
+        },
+        {
+            "id": "liyue_q46",
+            "title": "The Dealing Sands"
+        },
+        {
+            "id": "liyue_q47",
+            "title": "The Millennial Mountains"
+        },
+        {
+            "id": "liyue_q48",
+            "title": "The Ocean Pearl"
+        },
+        {
+            "id": "liyue_q49",
+            "title": "The Roaming Abode"
+        },
+        {
+            "id": "liyue_q50",
+            "title": "The Secret of Nantianmen"
+        },
+        {
+            "id": "liyue_q51",
+            "title": "The Tales Behind the Fan"
+        },
+        {
+            "id": "liyue_q52",
+            "title": "The Tree who Stands Alone"
+        },
+        {
+            "id": "liyue_q53",
+            "title": "The Yaksha's Wish"
+        },
+        {
+            "id": "liyue_q54",
+            "title": "Threefold Expectations"
+        },
+        {
+            "id": "liyue_q55",
+            "title": "Tianqiu Treasure Trail"
+        },
+        {
+            "id": "liyue_q56",
+            "title": "Trails in Tianqiu"
+        },
+        {
+            "id": "liyue_q57",
+            "title": "Treasure Lost, Treasure Found (Part 1)"
+        },
+        {
+            "id": "liyue_q58",
+            "title": "Treasure Lost, Treasure Found (Part 2)"
+        },
+        {
+            "id": "liyue_q59",
+            "title": "Undetected Infiltration"
+        },
+        {
+            "id": "liyue_q60",
+            "title": "Will of Stone"
+        },
+        {
+            "id": "liyue_q61",
+            "title": "Words Worth Their Weight in Mora"
+        }
+    ]
+}

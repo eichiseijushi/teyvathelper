@@ -1,0 +1,631 @@
+{
+    "name": "Sumeru",
+    "groups": [
+        {
+            "name": "Anaryaka",
+            "chapters": [
+                {
+                    "name": "Part I: Woodland Encounter",
+                    "quests": [
+                        {
+                            "id": "sumeru_s1_c1_q1",
+                            "title": "Woodland Encounter"
+                        },
+                        {
+                            "id": "sumeru_s1_c1_q2",
+                            "title": "The Children of Vimara Village"
+                        },
+                        {
+                            "id": "sumeru_s1_c1_q3",
+                            "title": "Into the Woods"
+                        },
+                        {
+                            "id": "sumeru_s1_c1_q4",
+                            "title": "The Lost Child"
+                        }
+                    ]
+                },
+                {
+                    "name": "Part II: Dream Nursery",
+                    "quests": [
+                        {
+                            "id": "sumeru_s1_c2_q1",
+                            "title": "The World of Aranara"
+                        },
+                        {
+                            "id": "sumeru_s1_c2_q2",
+                            "title": "Children of the Forest"
+                        },
+                        {
+                            "id": "sumeru_s1_c2_q3",
+                            "title": "Sprouting Seedlings"
+                        },
+                        {
+                            "id": "sumeru_s1_c2_q4",
+                            "title": "Encounter in the Woods"
+                        },
+                        {
+                            "id": "sumeru_s1_c2_q5",
+                            "title": "The Rhythm that Leads to the Gloomy Path"
+                        },
+                        {
+                            "id": "sumeru_s1_c2_q6",
+                            "title": "The Rhythm that Nurtures the Sprout"
+                        },
+                        {
+                            "id": "sumeru_s1_c2_q7",
+                            "title": "The Rhythm that Reveals the Beastly Trail"
+                        },
+                        {
+                            "id": "sumeru_s1_c2_q8",
+                            "title": "For A Better Reunion"
+                        },
+                        {
+                            "id": "sumeru_s1_c2_q9",
+                            "title": "Festival Utsava"
+                        },
+                        {
+                            "id": "sumeru_s1_c2_q10",
+                            "title": "Delicious Riddle"
+                        },
+                        {
+                            "id": "sumeru_s1_c2_q11",
+                            "title": "Garden Fairies"
+                        },
+                        {
+                            "id": "sumeru_s1_c2_q12",
+                            "title": "Rishboland Tiger, Roaaar"
+                        },
+                        {
+                            "id": "sumeru_s1_c2_q13",
+                            "title": "Taste of Happiness"
+                        }
+                    ]
+                },
+                {
+                    "name": "Part III: Nursery of Lost Dreams",
+                    "quests": [
+                        {
+                            "id": "sumeru_s1_c3_q1",
+                            "title": "For Fruits, Seeds, and Trees"
+                        },
+                        {
+                            "id": "sumeru_s1_c3_q2",
+                            "title": "For the Children of the Past"
+                        },
+                        {
+                            "id": "sumeru_s1_c3_q3",
+                            "title": "For All Children Who Long for Life"
+                        }
+                    ]
+                },
+                {
+                    "name": "Part IV: In the End, the Forest Will Remember",
+                    "quests": [
+                        {
+                            "id": "sumeru_s1_c4_q1",
+                            "title": "Hello, \"Thank You,\" and the Final \"Goodbye\""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "A Gifted Rose",
+            "quests": [
+                {
+                    "id": "sumeru_c1_q1",
+                    "title": "A Gifted Rose: Prickly as Thorns"
+                },
+                {
+                    "id": "sumeru_c1_q2",
+                    "title": "A Gifted Rose: Long Day Ahead"
+                },
+                {
+                    "id": "sumeru_c1_q3",
+                    "title": "A Gifted Rose: Can Stones Bloom"
+                },
+                {
+                    "id": "sumeru_c1_q4",
+                    "title": "A Gifted Rose: Ballad of Days Gone By"
+                },
+                {
+                    "id": "sumeru_c1_q5",
+                    "title": "A Gifted Rose: Some People Never Fade Away"
+                }
+            ]
+        },
+        {
+            "name": "Agnihotra Sutra",
+            "quests": [
+                {
+                    "id": "sumeru_c2_q1",
+                    "title": "Risen Moon Chapter"
+                },
+                {
+                    "id": "sumeru_c2_q2",
+                    "title": "Starry Night Chapter"
+                },
+                {
+                    "id": "sumeru_c2_q3",
+                    "title": "The Final Chapter"
+                }
+            ]
+        },
+        {
+            "name": "An Unwavering Culinary Dream",
+            "quests": [
+                {
+                    "id": "sumeru_c3_q1",
+                    "title": "An Unwavering Culinary Dream"
+                },
+                {
+                    "id": "sumeru_c3_q2",
+                    "title": "Cooking, the Flavor of Nature"
+                },
+                {
+                    "id": "sumeru_c3_q3",
+                    "title": "Cooking, a Pleasant Memory"
+                },
+                {
+                    "id": "sumeru_c3_q4",
+                    "title": "Cooking, the Aroma of Homecoming"
+                },
+                {
+                    "id": "sumeru_c3_q5",
+                    "title": "Cooking, the Beauty of Sharing"
+                },
+                {
+                    "id": "sumeru_c3_q6",
+                    "title": "A Delicacy for Nara"
+                }
+            ]
+        },
+        {
+            "name": "Apocalypse Lost",
+            "quests": [
+                {
+                    "id": "sumeru_c4_q1",
+                    "title": "Memories of Gurabad"
+                }
+            ]
+        },
+        {
+            "name": "Golden Slumber",
+            "quests": [
+                {
+                    "id": "sumeru_c5_q1",
+                    "title": "Lost in the Sands"
+                },
+                {
+                    "id": "sumeru_c5_q2",
+                    "title": "An Introduction to Indoor Archaeology"
+                },
+                {
+                    "id": "sumeru_c5_q3",
+                    "title": "The Secret of Al-Ahmar"
+                },
+                {
+                    "id": "sumeru_c5_q4",
+                    "title": "Dreams Beneath the Searing Sand"
+                }
+            ]
+        },
+        {
+            "name": "Her Foes Rage Like Great Waters...",
+            "quests": [
+                {
+                    "id": "sumeru_c6_q1",
+                    "title": "Behold, the Sign Comes Like A Thief..."
+                },
+                {
+                    "id": "sumeru_c6_q2",
+                    "title": "Make Bright the Arrows, Gather the Shields..."
+                },
+                {
+                    "id": "sumeru_c6_q3",
+                    "title": "For Her Judgment Reaches to the Skies..."
+                }
+            ]
+        },
+        {
+            "name": "Khvarena of Good and Evil",
+            "quests": [
+                {
+                    "id": "sumeru_c7_q1",
+                    "title": "The Splendorous Sky That Day"
+                },
+                {
+                    "id": "sumeru_c7_q2",
+                    "title": "Asipattravana Itihasa"
+                },
+                {
+                    "id": "sumeru_c7_q3",
+                    "title": "Awakening's Real Sound"
+                },
+                {
+                    "id": "sumeru_c7_q4",
+                    "title": "As the Khvarena's Light Shows"
+                },
+                {
+                    "id": "sumeru_c7_q5",
+                    "title": "As the Khvarena's Light Shows: Dukkha"
+                },
+                {
+                    "id": "sumeru_c7_q6",
+                    "title": "As the Khvarena's Light Shows: Nirodha"
+                },
+                {
+                    "id": "sumeru_c7_q7",
+                    "title": "As the Khvarena's Light Shows: Samudaya"
+                },
+                {
+                    "id": "sumeru_c7_q8",
+                    "title": "The Hymn of Tir Yazad (Part 1)"
+                },
+                {
+                    "id": "sumeru_c7_q9",
+                    "title": "The Hymn of Tir Yazad (Part 2)"
+                }
+            ]
+        },
+        {
+            "name": "Monumental Study",
+            "quests": [
+                {
+                    "id": "sumeru_c8_q1",
+                    "title": "Monumental Study"
+                },
+                {
+                    "id": "sumeru_c8_q2",
+                    "title": "Investigate the Fatui Camps Marked by Sosi"
+                },
+                {
+                    "id": "sumeru_c8_q3",
+                    "title": "Search for the Lost Monument Fragments"
+                }
+            ]
+        },
+        {
+            "name": "Old Notes and New Friends",
+            "quests": [
+                {
+                    "id": "sumeru_c9_q1",
+                    "title": "Dual Evidence"
+                },
+                {
+                    "id": "sumeru_c9_q2",
+                    "title": "Soheil's Wish"
+                },
+                {
+                    "id": "sumeru_c9_q3",
+                    "title": "Desert's Remembrance"
+                },
+                {
+                    "id": "sumeru_c9_q4",
+                    "title": "Hidden Mercenaries"
+                },
+                {
+                    "id": "sumeru_c9_q5",
+                    "title": "Invisible Barrier"
+                }
+            ]
+        },
+        {
+            "name": "Pale Fire",
+            "quests": [
+                {
+                    "id": "sumeru_c10_q1",
+                    "title": "Pale Fire"
+                },
+                {
+                    "id": "sumeru_c10_q2",
+                    "title": "Awaken the Residual Pari in the Fravashi Trees (Asipattravana Swamp)"
+                },
+                {
+                    "id": "sumeru_c10_q3",
+                    "title": "Awaken the Residual Pari in the Fravashi Trees (East Tunigi Hollow)"
+                },
+                {
+                    "id": "sumeru_c10_q4",
+                    "title": "Awaken the Residual Pari in the Fravashi Trees (Hangeh Afrasiyab)"
+                },
+                {
+                    "id": "sumeru_c10_q5",
+                    "title": "Awaken the Residual Pari in the Fravashi Trees (Madinat al-Nuhas)"
+                },
+                {
+                    "id": "sumeru_c10_q6",
+                    "title": "Awaken the Residual Pari in the Fravashi Trees (North Tunigi Hollow 1)"
+                },
+                {
+                    "id": "sumeru_c10_q7",
+                    "title": "Awaken the Residual Pari in the Fravashi Trees (North Tunigi Hollow 2)"
+                },
+                {
+                    "id": "sumeru_c10_q8",
+                    "title": "Awaken the Residual Pari in the Fravashi Trees (North Tunigi Hollow 3)"
+                },
+                {
+                    "id": "sumeru_c10_q9",
+                    "title": "Awaken the Residual Pari in the Fravashi Trees (Northwest Tunigi Hollow)"
+                },
+                {
+                    "id": "sumeru_c10_q10",
+                    "title": "Awaken the Residual Pari in the Fravashi Trees (West Temir Mountains 1)"
+                },
+                {
+                    "id": "sumeru_c10_q11",
+                    "title": "Awaken the Residual Pari in the Fravashi Trees (West Temir Mountains 2)"
+                }
+            ]
+        },
+        {
+            "name": "The Dirge of Bilqis",
+            "quests": [
+                {
+                    "id": "sumeru_c11_q1",
+                    "title": "Wisdom Has Built Her House, She Has Hewn Out Her Seven Pillars"
+                },
+                {
+                    "id": "sumeru_c11_q2",
+                    "title": "The Temple Where Sand Flows Like Tears"
+                },
+                {
+                    "id": "sumeru_c11_q3",
+                    "title": "Dune-Entombed Fecundity: Part I"
+                },
+                {
+                    "id": "sumeru_c11_q4",
+                    "title": "Dune-Entombed Fecundity: Part II"
+                },
+                {
+                    "id": "sumeru_c11_q5",
+                    "title": "Dune-Entombed Fecundity: Part III"
+                },
+                {
+                    "id": "sumeru_c11_q6",
+                    "title": "The Eternal Dream, Ever Lush"
+                }
+            ]
+        },
+        {
+            "name": "The Exile",
+            "quests": [
+                {
+                    "id": "sumeru_c12_q1",
+                    "title": "The Exile: Sprouting"
+                },
+                {
+                    "id": "sumeru_c12_q2",
+                    "title": "The Exile: Blooming"
+                }
+            ]
+        },
+        {
+            "name": "The Gourmet Supremos",
+            "quests": [
+                {
+                    "id": "sumeru_c13_q1",
+                    "title": "Gourmet Supremos: Within Our Duties"
+                },
+                {
+                    "id": "sumeru_c13_q2",
+                    "title": "The Gourmet Supremos: Cleanup"
+                }
+            ]
+        },
+        {
+            "name": "Varuna Gatha",
+            "quests": [
+                {
+                    "id": "sumeru_c14_q1",
+                    "title": "Varuna Gatha"
+                },
+                {
+                    "id": "sumeru_c14_q2",
+                    "title": "Irate Iron Chunk"
+                },
+                {
+                    "id": "sumeru_c14_q3",
+                    "title": "Memory of Stone"
+                },
+                {
+                    "id": "sumeru_c14_q4",
+                    "title": "Slumbering Roots"
+                },
+                {
+                    "id": "sumeru_c14_q5",
+                    "title": "A Prayer for Rain on the Fecund Land"
+                }
+            ]
+        },
+        {
+            "name": "Vimana Agama",
+            "quests": [
+                {
+                    "id": "sumeru_c15_q1",
+                    "title": "Vimana Agama: First Chapter"
+                },
+                {
+                    "id": "sumeru_c15_q2",
+                    "title": "Vimana Agama: Royinjan's Chapter"
+                },
+                {
+                    "id": "sumeru_c15_q3",
+                    "title": "Royinjan's Chapter: Linga"
+                },
+                {
+                    "id": "sumeru_c15_q4",
+                    "title": "Royinjan's Chapter: Yoni"
+                },
+                {
+                    "id": "sumeru_c15_q5",
+                    "title": "Vimana Agama: Jazari's Chapter"
+                },
+                {
+                    "id": "sumeru_c15_q6",
+                    "title": "Vimana Agama: Dev Delver Chapter"
+                }
+            ]
+        }
+    ],
+    "quests": [
+        {
+            "id": "sumeru_q1",
+            "title": "A Short Encounter with a Rare Bird"
+        },
+        {
+            "id": "sumeru_q2",
+            "title": "Adventure Takes Courage!"
+        },
+        {
+            "id": "sumeru_q3",
+            "title": "Afratu's Dilemma"
+        },
+        {
+            "id": "sumeru_q4",
+            "title": "An Artist Adrift (Part 1)"
+        },
+        {
+            "id": "sumeru_q5",
+            "title": "An Artist Adrift (Part 2)"
+        },
+        {
+            "id": "sumeru_q6",
+            "title": "An Artist Adrift (Part 3)"
+        },
+        {
+            "id": "sumeru_q7",
+            "title": "Another Home There May Yet Be"
+        },
+        {
+            "id": "sumeru_q8",
+            "title": "Aragaru's Drawing"
+        },
+        {
+            "id": "sumeru_q9",
+            "title": "Aranaga's Memory"
+        },
+        {
+            "id": "sumeru_q10",
+            "title": "Aranakin's Old Friend"
+        },
+        {
+            "id": "sumeru_q11",
+            "title": "Blooming Sands"
+        },
+        {
+            "id": "sumeru_q12",
+            "title": "Corps of Thirty Recruitment"
+        },
+        {
+            "id": "sumeru_q13",
+            "title": "Cost-Effective Hook"
+        },
+        {
+            "id": "sumeru_q14",
+            "title": "Courage Is in the Heart"
+        },
+        {
+            "id": "sumeru_q15",
+            "title": "Even Beasts Stumble"
+        },
+        {
+            "id": "sumeru_q16",
+            "title": "For a Dream I Tarry"
+        },
+        {
+            "id": "sumeru_q17",
+            "title": "Garcia's Paean: A Gift of Compatibility"
+        },
+        {
+            "id": "sumeru_q18",
+            "title": "Giving Flowers"
+        },
+        {
+            "id": "sumeru_q19",
+            "title": "Heart of Amrita"
+        },
+        {
+            "id": "sumeru_q20",
+            "title": "Join the Eremites and Embrace a Wonderful New Life!"
+        },
+        {
+            "id": "sumeru_q21",
+            "title": "Legends of the Stone Lock"
+        },
+        {
+            "id": "sumeru_q22",
+            "title": "Lightcall Resonance"
+        },
+        {
+            "id": "sumeru_q23",
+            "title": "Memory's Final Chapter"
+        },
+        {
+            "id": "sumeru_q24",
+            "title": "Next Time, On King of Invokations..."
+        },
+        {
+            "id": "sumeru_q25",
+            "title": "Purbiruni's Commandment"
+        },
+        {
+            "id": "sumeru_q26",
+            "title": "Recollections of a Fontainian"
+        },
+        {
+            "id": "sumeru_q27",
+            "title": "Rejoice With Me, for What Was Lost Is Now Found"
+        },
+        {
+            "id": "sumeru_q28",
+            "title": "Static Views"
+        },
+        {
+            "id": "sumeru_q29",
+            "title": "Static Views, Part 2"
+        },
+        {
+            "id": "sumeru_q30",
+            "title": "Tadhla the Falcon"
+        },
+        {
+            "id": "sumeru_q31",
+            "title": "The Falcon's Hunt"
+        },
+        {
+            "id": "sumeru_q32",
+            "title": "The Fallen Falcon"
+        },
+        {
+            "id": "sumeru_q33",
+            "title": "The Foolish Fatuus"
+        },
+        {
+            "id": "sumeru_q34",
+            "title": "The Path of Papers"
+        },
+        {
+            "id": "sumeru_q35",
+            "title": "The Price"
+        },
+        {
+            "id": "sumeru_q36",
+            "title": "Treasure of Wisdom: A New Plan"
+        },
+        {
+            "id": "sumeru_q37",
+            "title": "Trees and Dreams"
+        },
+        {
+            "id": "sumeru_q38",
+            "title": "Until Vana is Healed"
+        },
+        {
+            "id": "sumeru_q39",
+            "title": "Where Are the Fierce Creatures?"
+        }
+    ]
+}

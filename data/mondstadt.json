@@ -1,0 +1,188 @@
+{
+    "name": "Mondstadt",
+    "groups": [
+        {
+            "name": "Battlefield of Dice, Cats, and Cards",
+            "quests": [
+                {
+                    "id": "mondstadt_c1_q1",
+                    "title": "Come Try Genius Invokation TCG!"
+                }
+            ]
+        }
+    ],
+    "quests": [
+        {
+            "id": "mondstadt_q1",
+            "title": "A Fine Opportunity?"
+        },
+        {
+            "id": "mondstadt_q2",
+            "title": "A Guest From Liyue"
+        },
+        {
+            "id": "mondstadt_q3",
+            "title": "Adventure Rank Ascension 1"
+        },
+        {
+            "id": "mondstadt_q4",
+            "title": "Adventure Rank Ascension 2"
+        },
+        {
+            "id": "mondstadt_q5",
+            "title": "Adventure Rank Ascension 3"
+        },
+        {
+            "id": "mondstadt_q6",
+            "title": "Adventure Rank Ascension 4"
+        },
+        {
+            "id": "mondstadt_q7",
+            "title": "After the Storm"
+        },
+        {
+            "id": "mondstadt_q8",
+            "title": "Ascension Challenge I"
+        },
+        {
+            "id": "mondstadt_q9",
+            "title": "Ascension Challenge II"
+        },
+        {
+            "id": "mondstadt_q10",
+            "title": "Ascension Challenge III"
+        },
+        {
+            "id": "mondstadt_q11",
+            "title": "Ascension Challenge IV"
+        },
+        {
+            "id": "mondstadt_q12",
+            "title": "Break the Sword Cemetery Seal"
+        },
+        {
+            "id": "mondstadt_q13",
+            "title": "Busy Adventurers' Guild"
+        },
+        {
+            "id": "mondstadt_q14",
+            "title": "Cleanup At Dawn"
+        },
+        {
+            "id": "mondstadt_q15",
+            "title": "Collector of Anemo Sigils"
+        },
+        {
+            "id": "mondstadt_q16",
+            "title": "Equivalent Exchange"
+        },
+        {
+            "id": "mondstadt_q17",
+            "title": "Every Day a New Adventure"
+        },
+        {
+            "id": "mondstadt_q18",
+            "title": "Exploding Population"
+        },
+        {
+            "id": "mondstadt_q19",
+            "title": "Flighty Flora... and Flora"
+        },
+        {
+            "id": "mondstadt_q20",
+            "title": "In the Aftermath"
+        },
+        {
+            "id": "mondstadt_q21",
+            "title": "Knight of the Realm"
+        },
+        {
+            "id": "mondstadt_q22",
+            "title": "Lingering Malady"
+        },
+        {
+            "id": "mondstadt_q23",
+            "title": "Mine Craft"
+        },
+        {
+            "id": "mondstadt_q24",
+            "title": "Mondstadt and its Archon"
+        },
+        {
+            "id": "mondstadt_q25",
+            "title": "New Horizons of Adventure"
+        },
+        {
+            "id": "mondstadt_q26",
+            "title": "Not to be Missed"
+        },
+        {
+            "id": "mondstadt_q27",
+            "title": "Question and Answer"
+        },
+        {
+            "id": "mondstadt_q28",
+            "title": "Scent on the Wind"
+        },
+        {
+            "id": "mondstadt_q29",
+            "title": "Sharpening the Axe Won't Hinder the Work"
+        },
+        {
+            "id": "mondstadt_q30",
+            "title": "Solo Venture"
+        },
+        {
+            "id": "mondstadt_q31",
+            "title": "The Art of Cooking"
+        },
+        {
+            "id": "mondstadt_q32",
+            "title": "The Blessings of The Seven"
+        },
+        {
+            "id": "mondstadt_q33",
+            "title": "The Call of Mystical Martial Arts"
+        },
+        {
+            "id": "mondstadt_q34",
+            "title": "Thief-Catcher"
+        },
+        {
+            "id": "mondstadt_q35",
+            "title": "Time and Wind"
+        },
+        {
+            "id": "mondstadt_q36",
+            "title": "Time Waits For No Man"
+        },
+        {
+            "id": "mondstadt_q37",
+            "title": "To the Winds of Freedom"
+        },
+        {
+            "id": "mondstadt_q38",
+            "title": "Unbegun, Unending Story"
+        },
+        {
+            "id": "mondstadt_q39",
+            "title": "Welcome to the Adventurers' Guild"
+        },
+        {
+            "id": "mondstadt_q40",
+            "title": "When the Trail Goes Cold"
+        },
+        {
+            "id": "mondstadt_q41",
+            "title": "Windrise, Windfall"
+        },
+        {
+            "id": "mondstadt_q42",
+            "title": "Wisdom of Ancient Civilizations"
+        },
+        {
+            "id": "mondstadt_q43",
+            "title": "World Level Ascension"
+        }
+    ]
+}

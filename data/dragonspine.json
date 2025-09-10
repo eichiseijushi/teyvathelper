@@ -1,0 +1,46 @@
+{
+    "name": "Dragonspine",
+    "groups": [],
+    "quests": [
+        {
+            "id": "dragonspine_q1",
+            "title": "A Land Entombed"
+        },
+        {
+            "id": "dragonspine_q2",
+            "title": "Ah, Fresh Meat!"
+        },
+        {
+            "id": "dragonspine_q3",
+            "title": "In the Mountains"
+        },
+        {
+            "id": "dragonspine_q4",
+            "title": "Lost in the Snow"
+        },
+        {
+            "id": "dragonspine_q5",
+            "title": "Low-Temperature Warning"
+        },
+        {
+            "id": "dragonspine_q6",
+            "title": "Snowy Silhouette: Hope"
+        },
+        {
+            "id": "dragonspine_q7",
+            "title": "Snowy Silhouette: Reunion"
+        },
+        {
+            "id": "dragonspine_q8",
+            "title": "The Festering Fang"
+        },
+        {
+            "id": "dragonspine_q9",
+            "title": "The Great Mountain Survey"
+        },
+        {
+            "id": "dragonspine_q10",
+            "title": "The Great Mountain Survey II"
+        }
+    ]
+}

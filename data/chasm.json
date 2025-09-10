@@ -1,0 +1,94 @@
+{
+    "name": "The Chasm",
+    "groups": [
+        {
+            "name": "Lost in a Foreign Land",
+            "quests": [
+                {
+                    "id": "chasm_c1_q1",
+                    "title": "Lost in a Foreign Land"
+                },
+                {
+                    "id": "chasm_c1_q2",
+                    "title": "Lost in a Foreign Land: Seeking"
+                }
+            ]
+        },
+        {
+            "name": "The Chasm Delvers",
+            "quests": [
+                {
+                    "id": "chasm_c2_q1",
+                    "title": "Chasm Spelunkers"
+                },
+                {
+                    "id": "chasm_c2_q2",
+                    "title": "First Miasmic Contact"
+                },
+                {
+                    "id": "chasm_c2_q3",
+                    "title": "Meeting New People... and Foiling Some Bandits"
+                },
+                {
+                    "id": "chasm_c2_q4",
+                    "title": "Perils in the Dark"
+                },
+                {
+                    "id": "chasm_c2_q5",
+                    "title": "The Heavenly Stone's Debris"
+                },
+                {
+                    "id": "chasm_c2_q6",
+                    "title": "Wherefore Did the Spiritstone Descend?"
+                }
+            ]
+        },
+        {
+            "name": "Valor's Afterglow",
+            "quests": [
+                {
+                    "id": "chasm_c3_q1",
+                    "title": "Valor's Afterglow"
+                },
+                {
+                    "id": "chasm_c3_q2",
+                    "title": "Valor's Afterglow: Return by Sundown"
+                },
+                {
+                    "id": "chasm_c3_q3",
+                    "title": "Valor's Afterglow: The Faint Light Remembered"
+                }
+            ]
+        }
+    ],
+    "quests": [
+        {
+            "id": "chasm_q1",
+            "title": "A Company Vanishing Into the Deep"
+        },
+        {
+            "id": "chasm_q2",
+            "title": "Dimming Mushroom's Call for Help"
+        },
+        {
+            "id": "chasm_q3",
+            "title": "Hydrological Investigation in The Chasm"
+        },
+        {
+            "id": "chasm_q4",
+            "title": "Mycological Investigation in The Chasm"
+        },
+        {
+            "id": "chasm_q5",
+            "title": "Paleontological Investigation in The Chasm"
+        },
+        {
+            "id": "chasm_q6",
+            "title": "The Chasm's Bounty"
+        },
+        {
+            "id": "chasm_q7",
+            "title": "The Missing"
+        }
+    ]
+}

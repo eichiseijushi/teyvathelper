@@ -1,0 +1,410 @@
+:root {
+  --top-bar: #292022;
+  --regions-bar: #2e2426;
+  --main-bcg: #332829;
+  --buttons: #3d3132;
+  --text: #dcb37b;
+  --lighter-text: #f1e1ba;
+  --opacityAddon1: rgba(0, 0, 0, 0.1);
+  --opacityAddon2: rgba(0, 0, 0, 0.2);
+  --opacityAddon3: rgba(0, 0, 0, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Parkinsans', sans-serif;
+  background-color: var(--main-bcg);
+  color: var(--text);
+  height: 100vh;
+  overflow: hidden;
+  scrollbar-width: thin; 
+  scrollbar-color: var(--text) var(--top-bar); 
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  height:74px;
+  padding: 10px 20px;
+  background-color: var(--top-bar);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.btn {
+  background-color: var(--buttons);
+  font-family: 'Parkinsans', sans-serif;
+  color: var(--text);
+  width: 15vh;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  transition: text-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.btn:hover {
+  text-shadow: 0 0 10px var(--text), 0 0 20px var(--text);
+  filter: brightness(1.2);
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 25vh;
+}
+
+.search input[type="text"] {
+  width: 50%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid var(--buttons);
+  background-color: var(--buttons);
+  color: var(--text);
+  outline: none;
+  font-family: 'Parkinsans', sans-serif;
+}
+
+.search input#hideCompleted[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 2px solid var(--text);
+  background-color: var(--buttons);
+  transition: box-shadow 0.3s ease, filter 0.3s ease;
+  position: relative;
+}
+
+.search input#hideCompleted[type="checkbox"]:hover {
+  box-shadow: 0 0 15px var(--text);
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+.search input#hideCompleted[type="checkbox"]:checked {
+  filter: brightness(1.2);
+  border-color: var(--lighter-text);
+}
+
+.search input#hideCompleted[type="checkbox"]:checked::after {
+  content: '\2713';
+  color: var(--lighter-text);
+  font-size: 14px;
+  font-weight: bold;
+  left: 15%;
+  bottom: 10%;
+  position: relative;
+}
+
+.search label {
+  display: flex;
+  align-items: center;
+  color: var(--text);
+  user-select: none;
+  white-space: nowrap;
+}
+.palette-selector {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.palette-selector button {
+  background-color: var(--buttons);
+  font-family: 'Parkinsans', sans-serif;
+  color: var(--text);
+  width: 10vh;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 12px;
+  border: none;
+  transition: text-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.palette-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background: var(--top-bar);
+  border-radius: 5px;
+  padding: 10px 10px 0px 10px;
+  z-index: 100;
+}
+
+.palette-selector button:hover {
+  text-shadow: 0 0 10px var(--text), 0 0 20px var(--text);
+  filter: brightness(1.2);
+}
+.palette-menu button {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 10px 0;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  background: var(--buttons);
+  color: var(--lighter-text);
+  transition: text-shadow 0.3s ease, filter 0.3s ease;
+}
+.palette-menu button:hover {
+  text-shadow: 0 0 10px var(--text), 0 0 20px var(--text);
+  filter: brightness(1.2);
+}
+.palette-icon {
+  width: 40px;       /* szerokość ikony */
+  height: 40px;      /* wysokość ikony */
+  object-fit: contain; /* obrazek zachowa proporcje */
+  border-radius: 8px; /* opcjonalnie: zaokrąglone rogi */
+  transition: transform 0.3s ease; /* płynna animacja */
+}
+
+.palette-icon:hover {
+  transform: scale(1.1); /* powiększenie przy najechaniu myszką */
+  cursor: pointer;
+}
+
+button.selected {
+  border: 3px solid var(--lighter-text);   /* obramówka wokół całego przycisku */
+  box-shadow: 0 0 8px var(--lighter-text); /* opcjonalny efekt świecenia */
+}
+
+/* Layout */
+.wrap {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px;
+  height: calc(100% - 62px);
+}
+
+.sidebar {
+    width: 400px;
+    background-color: var(--regions-bar);
+    padding: 5px 20px 5px 20px;
+    height: 100%;
+    overflow-y: auto;
+    display: grid;
+    justify-content: center;
+    scrollbar-width: thin;
+    scrollbar-color: var(--text) var(--top-bar);
+}
+
+.sidebar h2 {
+  color: var(--text);
+  margin-bottom: 15px;
+}
+
+.region {
+  height: 100px;
+  background-color: var(--buttons);
+  font-family: 'Parkinsans', sans-serif;
+  font-size: 24px;
+  color: var(--text);
+  padding: 0px 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  transition: text-shadow 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
+}
+
+.region:hover {
+  text-shadow: 0 0 10px var(--text), 0 0 20px var(--text);
+  filter: brightness(1.2);
+}
+.region.selected {
+  text-shadow: 0 0 10px var(--text), 0 0 20px var(--text);
+  filter: brightness(1.2);
+  box-shadow: 0 0 5px var(--text);
+  border-radius: 8px; /* opcjonalnie zaokrąglone rogi */
+}
+
+.region-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.region-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 50px;
+}
+.region-name {
+  font-size: 18px;
+  text-align: left;
+}
+.region-progress {
+  font-size: 12px;
+  font-style: italic;
+  color: var(--lighter-text);
+  margin-top: 5px;
+}
+.region:hover .region-icon {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+/* Main content */
+.main {
+  background-color: var(--main-bcg);
+  padding: 16px;
+  border-radius: 10px;
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 16px;
+  background-color: var(--opacityAddon2);
+  border-radius: 10px;
+}
+.section-group {
+    background-color: var(--opacityAddon3) ;
+    padding: 10px 12px;
+    border-radius: 10px;
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.section-name {
+    color: var(--text);
+    font-size: 26px;
+    text-shadow: 0 1px 0 var(--opacityAddon2);
+}
+
+.section-title {
+    font-weight: 900;
+}
+.section-subtitle {
+  font-size: 12px;
+  font-style: italic;
+  color: var(--lighter-text);
+}
+
+.chapter-group {
+  background-color: var(--opacityAddon2);
+  padding: 8px 10px;
+  border-radius: 8px;
+  margin: 5px 5px -5px 5px;
+   display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.chapter-title {
+  font-weight: 800;
+}
+
+/* Quests */
+.quests {
+  list-style: none;
+  padding: 10px;
+  margin: 0px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.quest {
+  padding: 8px;
+  background-color: var(--opacityAddon1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quest.completed {
+  box-shadow: inset 0 0 0 2px var(--text);
+}
+
+.quest span {
+  flex-grow: 1;
+  text-align: left;
+  color: var(--text);
+}
+
+.quest input[type="checkbox"] {
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 2px solid var(--text);
+  background-color: var(--buttons);
+  transition: box-shadow 0.3s ease, filter 0.3s ease;
+  position: relative;
+}
+
+.quest input[type="checkbox"]:hover {
+  box-shadow: 0 0 15px var(--text);
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+.quest input[type="checkbox"]:checked {
+  filter: brightness(1.2);
+  border-color: var(--lighter-text);
+}
+
+.quest input[type="checkbox"]:checked::after {
+  content: '\2713';
+  color: var(--lighter-text);
+  font-size: 28px;
+  font-weight: bold;
+  left: 20%;
+  bottom: 5%;
+  position: relative;
+}
+
+.empty {
+  text-align: center;
+  font-weight: 700;
+  opacity: 0.9;
+}
+.mark-completed {
+  font-size: 12px;
+  color: var(--lighter-text);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: text-shadow 0.3s ease, filter 0.3s ease;
+}
+.mark-completed:hover {
+  text-shadow: 0 0 10px var(--text), 0 0 20px var(--text);
+  filter: brightness(1.2);
+}
+
+@media (max-width: 900px) {
+  .wrap {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    order: 2;
+  }
+  .main {
+    order: 1;
+  }
+}

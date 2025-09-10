@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Teyvat Helper</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+  <style>
+    .sidebar button:disabled {
+      opacity: 0.5;          /* wyszarzenie */
+      cursor: not-allowed;   /* zmiana kursora */
+      filter: grayscale(100%); /* odcienie szarości */
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+<body>
+  <!-- Panel boczny -->
+ 
+
+  <!-- Górny pasek -->
+  <header class="topbar">
+    <div class="palette-selector">
+      <button id="paletteBtn">Change Color</button>
+      <div id="paletteMenu" class="palette-menu">
+        <!-- Przycisk do każdej palety w JS -->
+      </div>
+    </div>
+    
+  </header>
+
+  <!-- Główna zawartość -->
+  <main class="content"> 
+    <nav class="sidebar">
+    <button onclick="window.location.href='quests.html'">Quests</button>
+    <button onclick="window.location.href='chests.html'" disabled>Chests</button>
+  </nav>
+  </main>
+  
+  <script src="main.js"></script>
+</body>
+</html>
