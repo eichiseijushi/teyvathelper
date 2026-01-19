@@ -1,0 +1,133 @@
+{
+  "name": "Nod-Krai",
+  "groups": [
+    {
+      "name": "Nightingale's Song",
+      "chapters": [
+        {
+                    "name": "Chapter I: Prelude to the Night Virgil",
+                    "quests": [
+                        {
+                            "id": "nodkrai_s1_c1_q1",
+                            "title": "Wind-Stirred Ripples"
+                        },
+                        {
+                            "id": "nodkrai_s1_c1_q2",
+                            "title": "Tower of Inversion"
+                        }
+                    ]
+                },
+                 {
+                    "name": "Chapter II: Darradarljod",
+                    "quests": [
+                        {
+                            "id": "nodkrai_s1_c2_q1",
+                            "title": "Focal Point of Ancient Array (I)"
+                        },
+                        {
+                            "id": "nodkrai_s1_c2_q2",
+                            "title": "Focal Point of Ancient Array (II)"
+                        },
+                        {
+                            "id": "nodkrai_s1_c2_q3",
+                            "title": "Focal Point of Ancient Array (III)"
+                        },
+                        {
+                            "id": "nodkrai_s1_c2_q4",
+                            "title": "When War Songs Rise"
+                        }
+                    ]
+                },
+                 {
+                    "name": "Final Chapter: A Star Out of Time",
+                    "quests": [
+                        {
+                            "id": "nodkrai_s1_c3_q1",
+                            "title": "The Last Night, the First Light"
+                        }
+                    ]
+                }
+      ]
+    },
+    {
+      "name": "Colors of Emptiness",
+      "quests": [
+        { "id": "nodkrai_c1_q1", "title": "Blues of the Old World" },
+        { "id": "nodkrai_c1_q2", "title": "Crimson Cleansing" },
+        { "id": "nodkrai_c1_q3", "title": "Colors Out of Space" }
+      ]
+    },
+    {
+      "name": "East of the Moon, West of the Sun",
+      "quests": [
+        { "id": "nodkrai_c2_q1", "title": "The Shoemaker's Children Go Barefoot" },
+        { "id": "nodkrai_c2_q2", "title": "The Tale-Telling Heart" },
+        { "id": "nodkrai_c2_q3", "title": "Whisper Beneath the Waves" },
+        { "id": "nodkrai_c2_q4", "title": "Return to Sender" },
+        { "id": "nodkrai_c2_q5", "title": "The Raven's Legacy" }
+      ]
+    },
+    {
+      "name": "Polkka Beneath the Moon's Oracle",
+      "quests": [
+        { "id": "nodkrai_c3_q1", "title": "For a Green Island..." },
+        { "id": "nodkrai_c3_q2", "title": "Gift of the Mirage" },
+        { "id": "nodkrai_c3_q3", "title": "The Mirrors, the Maze, and the Tsar" },
+        { "id": "nodkrai_c3_q4", "title": "The Tale of the Gate Stone" },
+        { "id": "nodkrai_c3_q5", "title": "Echoes of an Unfinished Past" }
+      ]
+    }
+  ],
+  "quests": [
+    { "id": "nodkrai_q1", "title": "A Small Venture" },
+{ "id": "nodkrai_q2", "title": "A Toast Beneath the Moon" },
+{ "id": "nodkrai_q3", "title": "A Whole New Craftshop" },
+{ "id": "nodkrai_q4", "title": "Blessings of the Frost Moon" },
+{ "id": "nodkrai_q5", "title": "Blessings of the Frost Moon (Part 2)" },
+{ "id": "nodkrai_q6", "title": "Chance Commission" },
+{ "id": "nodkrai_q7", "title": "Collaborative Commission" },
+{ "id": "nodkrai_q8", "title": "Come Play With the Moon" },
+{ "id": "nodkrai_q9", "title": "Drifting Toward a Promised Sky" },
+{ "id": "nodkrai_q10", "title": "Echoes of a Forsaken Song" },
+{ "id": "nodkrai_q11", "title": "Food Matters" },
+{ "id": "nodkrai_q12", "title": "Friends of Moleyvalley" },
+{ "id": "nodkrai_q13", "title": "Her Past" },
+{ "id": "nodkrai_q14", "title": "Homecoming's Faint Glow" },
+{ "id": "nodkrai_q15", "title": "Lightkeepers' Oath" },
+{ "id": "nodkrai_q16", "title": "May the Moonlight Connect Us" },
+{ "id": "nodkrai_q17", "title": "Minor Commission" },
+{ "id": "nodkrai_q18", "title": "Moonlight Sonata" },
+{ "id": "nodkrai_q19", "title": "Moonlight Sonata: Lingering Resonance" },
+{ "id": "nodkrai_q20", "title": "On This Intoxicating Night" },
+{ "id": "nodkrai_q21", "title": "Priorities First" },
+{ "id": "nodkrai_q22", "title": "Problem-Sorting Robot" },
+{ "id": "nodkrai_q23", "title": "Research Spillover" },
+{ "id": "nodkrai_q24", "title": "Shifting Moonlight" },
+{ "id": "nodkrai_q25", "title": "Team Rigor, or Team Intuition?" },
+{ "id": "nodkrai_q26", "title": "The Artist By the Moon's Side (I)" },
+{ "id": "nodkrai_q27", "title": "The Artist By the Moon's Side (II)" },
+{ "id": "nodkrai_q28", "title": "The Artist By the Moon's Side (III)" },
+{ "id": "nodkrai_q29", "title": "The Bell of Mourning Echoes" },
+{ "id": "nodkrai_q30", "title": "The Chef's Tale" },
+{ "id": "nodkrai_q31", "title": "The Disturbance Caused by Theft" },
+{ "id": "nodkrai_q32", "title": "The Dust Settles" },
+{ "id": "nodkrai_q33", "title": "The Empty Courtyard" },
+{ "id": "nodkrai_q34", "title": "The Haunted Pirate Shipwreck" },
+{ "id": "nodkrai_q35", "title": "The Lost Child's Tale" },
+{ "id": "nodkrai_q36", "title": "The Man Who Once Lied" },
+{ "id": "nodkrai_q37", "title": "The Moon Adorning the Night" },
+{ "id": "nodkrai_q38", "title": "The Power of Research" },
+{ "id": "nodkrai_q39", "title": "The Special Support Squad's Tale" },
+{ "id": "nodkrai_q40", "title": "The Spurious Cannot Be Made Genuine" },
+{ "id": "nodkrai_q41", "title": "The Stress of Changing Careers" },
+{ "id": "nodkrai_q42", "title": "The Sun Rises Once More" },
+{ "id": "nodkrai_q43", "title": "The Suspicious Hermit" },
+{ "id": "nodkrai_q44", "title": "The Vanishing Bounty Target" },
+{ "id": "nodkrai_q45", "title": "They Who Abandoned the Past" },
+{ "id": "nodkrai_q46", "title": "To the Lighthouse" },
+{ "id": "nodkrai_q47", "title": "To Turn Each Sin Against the Sinner" },
+{ "id": "nodkrai_q48", "title": "Venture Towards the Moonlight" },
+{ "id": "nodkrai_q49", "title": "Witch's Chatter" },
+{ "id": "nodkrai_q50", "title": "Witch's Lodge" }
+  ]
+}
