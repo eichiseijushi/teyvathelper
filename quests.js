@@ -372,7 +372,7 @@ function refreshRegionProgress(){
 el.back.addEventListener('click', () => {
   state.selectedRegionId = null;
   // tutaj ewentualnie dodatkowy reset innych stanów
-  window.location.href = 'index.html';
+  window.location.href = 'https://teyvathelper.vercel.app/';
 });
 
 
@@ -398,4 +398,5 @@ loadRegions().catch(err=>{
   console.error(err);
   el.sidebar.innerHTML = '<div class="empty">Error.json</div>';
 });
+
 
