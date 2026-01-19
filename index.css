@@ -33,9 +33,13 @@ body {
   position: sticky;
   top: 0;
   z-index: 5;
-  flex-direction: row-reverse;
 }
-
+.welcome {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text);
+  margin-right: auto;
+}
 .palette-selector {
   position: relative;
   display: flex;
