@@ -1,0 +1,36 @@
+[
+{ "id": "mondstadt", "name": "Mondstadt", "icon": "images/achievements/mondstadt.webp", "total": 518 },
+
+{ "id": "liyue", "name": "Liyue", "icon": "images/achievements/liyue.webp", "total": 1132 },
+
+{ "id": "dragonspine", "name": "Dragonspine", "icon": "images/achievements/dragonspine.webp", "total": 234 },
+
+{ "id": "inazuma-i", "name": "Inazuma I", "icon": "images/achievements/inazuma i.webp", "total": 357 },
+{ "id": "inazuma-ii", "name": "Inazuma II", "icon": "images/achievements/inazuma ii.webp", "total": 204 },
+{ "id": "inazuma-iii", "name": "Inazuma III", "icon": "images/achievements/inazuma iii.webp", "total": 169 },
+
+{ "id": "enkanomiya", "name": "Enkanomiya", "icon": "images/achievements/enkanomiya.webp", "total": 185 },
+
+{ "id": "the-chasm", "name": "The Chasm", "icon": "images/achievements/the chasm.webp", "total": 248 },
+
+{ "id": "sumeru-i", "name": "Sumeru I", "icon": "images/achievements/sumeru i.webp", "total": 575 },
+{ "id": "sumeru-ii", "name": "Sumeru II", "icon": "images/achievements/sumeru ii.webp", "total": 354 },
+{ "id": "sumeru-iii", "name": "Sumeru III", "icon": "images/achievements/sumeru iii.webp", "total": 290 },
+{ "id": "sumeru-iv", "name": "Sumeru IV", "icon": "images/achievements/sumeru iv.webp", "total": 256 },
+
+{ "id": "fontaine-i", "name": "Fontaine I", "icon": "images/achievements/fontaine i.webp", "total": 344 },
+{ "id": "fontaine-ii", "name": "Fontaine II", "icon": "images/achievements/fontaine ii.webp", "total": 243 },
+{ "id": "fontaine-iii", "name": "Fontaine III", "icon": "images/achievements/fontaine iii.webp", "total": 207 },
+
+{ "id": "chenyu-vale", "name": "Chenyu Vale", "icon": "images/achievements/chenyu vale.webp", "total": 333 },
+
+{ "id": "fontaine-iv", "name": "Fontaine IV", "icon": "images/achievements/fontaine iv.webp", "total": 151 },
+
+{ "id": "natlan-i", "name": "Natlan I", "icon": "images/achievements/natlan i.webp", "total": 411 },
+{ "id": "natlan-ii", "name": "Natlan II", "icon": "images/achievements/natlan ii.webp", "total": 202 },
+{ "id": "natlan-iii", "name": "Natlan III", "icon": "images/achievements/natlan iii.webp", "total": 217 },
+{ "id": "natlan-iv", "name": "Natlan IV", "icon": "images/achievements/natlan iv.webp", "total": 169 },
+
+{ "id": "nodkrai-i", "name": "Nod-Krai I", "icon": "images/achievements/nodkrai i.webp", "total": 299 },
+{ "id": "nodkrai-ii", "name": "Nod-Krai II", "icon": "images/achievements/nodkrai ii.webp", "total": 229 }
+]
