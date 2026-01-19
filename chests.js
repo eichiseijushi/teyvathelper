@@ -206,7 +206,7 @@ el.search.addEventListener('input', () => {
 });
 
 el.back.addEventListener('click', () => {
-  window.location.href = 'index.html';
+  window.location.href = 'https://teyvathelper.vercel.app/';
 });
 
 // ====== Init ======
@@ -214,4 +214,5 @@ loadChests().catch(err => {
   console.error(err);
   el.main.innerHTML = `<div class="empty">Failed to load chests.json</div>`;
 });
+
 
