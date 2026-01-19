@@ -1,5 +1,5 @@
 // ====== Helpers: storage & utils ======
-const STORAGE_PREFIX = 'questTracker:v1:';
+const STORAGE_PREFIX = 'Tracker:v1:';
 
 const storage = {
   get(id){ return localStorage.getItem(STORAGE_PREFIX + id) === '1'; },
@@ -130,4 +130,3 @@ document.addEventListener('click', e => {
     paletteMenu.style.display = 'none';
   }
 });
-
