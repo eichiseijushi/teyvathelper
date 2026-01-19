@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Chest Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="chests.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="topbar">
+  <button class="btn" id="backBtn">Back</button>
+
+  <div class="search">
+    <input id="searchInput" type="text" placeholder="Search region..." />
+  </div>
+
+  <div class="palette-selector">
+    <button id="paletteBtn">Change Color</button>
+    <div id="paletteMenu" class="palette-menu"></div>
+  </div>
+</header>
+
+<main class="main" id="mainPanel">
+  <div class="empty">Loading chests...</div>
+</main>
+
+<script src="chests.js"></script>
+</body>
+</html>

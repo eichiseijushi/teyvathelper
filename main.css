@@ -1,0 +1,184 @@
+:root {
+  --top-bar: #292022;
+  --regions-bar: #2e2426;
+  --main-bcg: #332829;
+  --buttons: #3d3132;
+  --text: #dcb37b;
+  --lighter-text: #f1e1ba;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Parkinsans', sans-serif;
+  background-color: var(--main-bcg);
+  color: var(--text);
+  height: 100vh;
+  overflow: hidden;
+  scrollbar-width: thin; 
+  scrollbar-color: var(--text) var(--top-bar); 
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  height:74px;
+  padding: 10px 20px;
+  background-color: var(--top-bar);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+.welcome {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text);
+  margin-right: auto;
+}
+.palette-selector {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.palette-selector button {
+  background-color: var(--buttons);
+  font-family: 'Parkinsans', sans-serif;
+  color: var(--text);
+  width: 10vh;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 12px;
+  border: none;
+  transition: text-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.palette-menu {
+  display: none;
+  position: absolute;
+  /* right: 0; */
+  top: 100%;
+  background: var(--top-bar);
+  border-radius: 5px;
+  padding: 10px 10px 0px 10px;
+  z-index: 100;
+}
+
+.palette-selector button:hover {
+  text-shadow: 0 0 10px var(--text), 0 0 20px var(--text);
+  filter: brightness(1.2);
+}
+.palette-menu button {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 10px 0;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  background: var(--buttons);
+  color: var(--lighter-text);
+  transition: text-shadow 0.3s ease, filter 0.3s ease;
+}
+.palette-menu button:hover {
+  text-shadow: 0 0 10px var(--text), 0 0 20px var(--text);
+  filter: brightness(1.2);
+}
+.palette-icon {
+  width: 40px;       /* szerokość ikony */
+  height: 40px;      /* wysokość ikony */
+  object-fit: contain; /* obrazek zachowa proporcje */
+  border-radius: 8px; /* opcjonalnie: zaokrąglone rogi */
+  transition: transform 0.3s ease; /* płynna animacja */
+}
+
+.palette-icon:hover {
+  transform: scale(1.1); /* powiększenie przy najechaniu myszką */
+  cursor: pointer;
+}
+
+button.selected {
+  border: 3px solid var(--lighter-text);   /* obramówka wokół całego przycisku */
+  box-shadow: 0 0 8px var(--lighter-text); /* opcjonalny efekt świecenia */
+}
+/* Sidebar wewnątrz main */
+.sidebar {
+    width: 400px;
+    height: 100vh;
+    background-color: var(--regions-bar);
+    padding: 10px 20px 5px 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    scrollbar-width: thin;
+    scrollbar-color: var(--text) var(--top-bar);
+}
+
+.sidebar h2 {
+  color: var(--text);
+  margin-bottom: 15px;
+}
+
+/* Przyciski w sidebarze */
+.sidebar button {
+  height: 70px;
+  width: 360px;
+  font-weight: 700;
+  background-color: var(--buttons);
+  font-family: 'Parkinsans', sans-serif;
+  font-size: 24px;
+  color: var(--text);
+  padding: 0px 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  transition: text-shadow 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efekt hover na cały przycisk */
+.sidebar button:hover {
+  text-shadow: 0 0 10px var(--text), 0 0 20px var(--text);
+  filter: brightness(1.2);
+}
+
+/* Ikonka w przycisku */
+.sidebar button img.btn-icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Powiększ ikonę gdy najeżdżasz na przycisk */
+.sidebar button:hover img.btn-icon {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+
+/* Efekt hover na przyciskach */
+
+
+@media (max-width: 900px) {
+  .wrap {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    order: 2;
+  }
+  .main {
+    order: 1;
+  }
+}

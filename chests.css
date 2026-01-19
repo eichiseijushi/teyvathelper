@@ -188,6 +188,13 @@ button.selected {
   border: 3px solid var(--lighter-text);   /* obramówka wokół całego przycisku */
   box-shadow: 0 0 8px var(--lighter-text); /* opcjonalny efekt świecenia */
 }
+#mainPanel {
+  height: 95vh; /* or whatever fits your layout */
+  overflow-y: auto; /* enables vertical scroll */
+  padding-right: 10px; /* optional, prevent scrollbar overlap */
+  background: var(--main-bcg);
+  border-radius: 8px;
+}
 
 /* Layout */
 .wrap {
@@ -335,10 +342,18 @@ button.selected {
   padding: 8px;
   background-color: var(--opacityAddon1);
   border-radius: 10px;
-  display: flex;
-  justify-content: space-between;
+
+  display: grid;
+  grid-template-columns:
+    100px        /* icon */
+    1fr         /* name (flexible) */
+    320px       /* count x/y (%) */
+    120px;      /* remaining */
+
   align-items: center;
+  gap: 12px;
 }
+
 
 .quest.completed {
   box-shadow: inset 0 0 0 2px var(--text);
@@ -399,6 +414,39 @@ button.selected {
   text-shadow: 0 0 10px var(--text), 0 0 20px var(--text);
   filter: brightness(1.2);
 }
+.chest-input {
+  width: 50px;
+  height: 25px;
+  background: var(--buttons);
+  color: var(--text);
+  border: 2px solid var(--text);
+  border-radius: 6px;
+  padding: 4px;
+  font-size: 16px;
+  font-family: 'Parkinsans', sans-serif;
+  text-align: center;
+}
+/* Chrome, Safari, Edge */
+.chest-input::-webkit-outer-spin-button,
+.chest-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.chest-input:focus,
+.chest-input:focus-visible {
+  outline: none;
+  border: 2px solid var(--text);
+}
+.remaining-text {
+  transition: color 0.2s ease;
+}
+
+.remaining-text.complete {
+  color: var(--lighter-text);
+  font-style: italic;
+}
+
+
 
 @media (max-width: 900px) {
   .wrap {

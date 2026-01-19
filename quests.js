@@ -1,5 +1,5 @@
 // ====== Helpers: storage & utils ======
-const STORAGE_PREFIX = 'questTracker:v1:';
+const STORAGE_PREFIX = 'Tracker:v1:';
 
 const storage = {
   get(id){ return localStorage.getItem(STORAGE_PREFIX + id) === '1'; },
@@ -372,7 +372,7 @@ function refreshRegionProgress(){
 el.back.addEventListener('click', () => {
   state.selectedRegionId = null;
   // tutaj ewentualnie dodatkowy reset innych stanów
-  window.location.href = 'index.html';
+  window.location.href = 'main.html';
 });
 
 
@@ -398,4 +398,3 @@ loadRegions().catch(err=>{
   console.error(err);
   el.sidebar.innerHTML = '<div class="empty">Error.json</div>';
 });
-
