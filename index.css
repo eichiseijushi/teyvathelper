@@ -110,6 +110,9 @@ button.selected {
   border: 3px solid var(--lighter-text);   /* obramówka wokół całego przycisku */
   box-shadow: 0 0 8px var(--lighter-text); /* opcjonalny efekt świecenia */
 }
+.content{
+  display: flex;
+}
 /* Sidebar wewnątrz main */
 .sidebar {
     width: 400px;
@@ -197,4 +200,5 @@ p{
     order: 1;
   }
 }
+
 
