@@ -193,13 +193,14 @@ a:active {
   color: var(--lighter-text);       /* same text color for all states */
   font-style: italic;     /* optional */
   cursor: pointer;       /* looks clickable */
+  transition: text-shadow 0.3s ease, filter 0.3s ease, transform 0.3s ease;
 }
 a:hover {
   transform: scale(1.1);
-  text-shadow: 0 0 10px var(--text), 0 0 20px var(--text);
+  text-shadow: 0 0 10px var(--lighter-text), 0 0 20px var(--lighter-text);
   filter: brightness(1.2);
 }
-/* Efekt hover na przyciskach */
+/* Efetransition: transform 0.3s ease;kt hover na przyciskach */
 
 
 @media (max-width: 900px) {
@@ -213,6 +214,7 @@ a:hover {
     order: 1;
   }
 }
+
 
 
 
