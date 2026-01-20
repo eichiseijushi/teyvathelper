@@ -5,6 +5,9 @@
   --buttons: #3d3132;
   --text: #dcb37b;
   --lighter-text: #f1e1ba;
+  --opacityAddon1: rgba(0, 0, 0, 0.1);
+  --opacityAddon2: rgba(0, 0, 0, 0.2);
+  --opacityAddon3: rgba(0, 0, 0, 0.3);
 }
 
 * {
@@ -181,17 +184,25 @@ button.selected {
     align-items: center;
     padding: 20px;
 }
-h2{
-  padding-top:20px;
-}
 h3{
-  padding-top:20px;
-}
-h4{
-  padding-top:20px;
+  border-radius: 10px 10px 0px 0px;
+  padding:2px;
+  padding:2px 20px;
+  margin-top:20px;
+  background-color: var(--opacityAddon3);
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
 }
 p{
+  padding:5px;
   text-align: center;
+  background-color: var(--opacityAddon1);
+  width: -webkit-fill-available;
+}
+p:last-of-type {
+  border-radius: 0 0 10px 10px;
+}
 a,
 a:link,
 a:visited,
@@ -220,6 +231,7 @@ a:hover {
     order: 1;
   }
 }
+
 
 
 
