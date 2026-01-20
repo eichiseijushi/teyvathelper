@@ -22,7 +22,7 @@ const el = {
 
 const palettes = {
   Aether: { topBar: "#292022", regionsBar: "#2e2426", mainBcg: "#332829", buttons: "#3d3132", text: "#dcb37b", lighterText: "#f1e1ba", opacityAddon1:"rgba(0, 0, 0, 0.1)", opacityAddon2:"rgba(0, 0, 0, 0.2)", opacityAddon3:"rgba(0, 0, 0, 0.3)" },
-  Lumine: { topBar: "#f4f4f4ff", regionsBar: "#ebebebff", mainBcg: "#e3e3e3ff", buttons: "#ffffffff", text: "#3d5870", lighterText: "#79adc9ff" , opacityAddon1:"rgba(255, 255, 255, 1)", opacityAddon2:"rgba(255, 255, 255, 0.6)", opacityAddon3:"rgba(255, 255, 255, 1)" },
+  Lumine: { topBar: "#f4f4f4ff", regionsBar: "#ebebebff", mainBcg: "#e3e3e3ff", buttons: "#ffffffff", text: "#3d5870", lighterText: "#79adc9ff" , opacityAddon1:"rgba(255, 255, 255, 0.7)", opacityAddon2:"rgba(255, 255, 255, 0.6)", opacityAddon3:"rgba(255, 255, 255, 1)" },
   Anemo: { topBar:"#003233", regionsBar:"#003637", mainBcg:"#003a3a", buttons:"#004343", text:"#90c58c", lighterText:"#a5f3cb",opacityAddon1:"rgba(0, 0, 0, 0.1)", opacityAddon2:"rgba(0, 0, 0, 0.2)", opacityAddon3:"rgba(0, 0, 0, 0.3)" },
   Geo: { topBar:"#2d1500", regionsBar:"#321900", mainBcg:"#371d00", buttons:"#412600", text:"#e0a824", lighterText:"#f5d663",opacityAddon1:"rgba(0, 0, 0, 0.1)", opacityAddon2:"rgba(0, 0, 0, 0.2)", opacityAddon3:"rgba(0, 0, 0, 0.3)" },
   Electro: { topBar:"#150067", regionsBar:"#1a006b", mainBcg:"#1f026e", buttons:"#290b77", text:"#c88dc0", lighterText:"#ddbbff", opacityAddon1:"rgba(0, 0, 0, 0.1)", opacityAddon2:"rgba(0, 0, 0, 0.2)", opacityAddon3:"rgba(0, 0, 0, 0.3)" },
@@ -130,3 +130,4 @@ document.addEventListener('click', e => {
     paletteMenu.style.display = 'none';
   }
 });
+
