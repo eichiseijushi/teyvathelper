@@ -189,14 +189,16 @@ p{
 a,
 a:link,
 a:visited,
-a:hover,
 a:active {
   color: var(--lighter-text);       /* same text color for all states */
-  text-decoration: none; /* no underline */
-  font-weight: bold;     /* optional */
+  font-style: italic;     /* optional */
   cursor: pointer;       /* looks clickable */
 }
-
+a:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 10px var(--text), 0 0 20px var(--text);
+  filter: brightness(1.2);
+}
 /* Efekt hover na przyciskach */
 
 
@@ -211,6 +213,7 @@ a:active {
     order: 1;
   }
 }
+
 
 
 
