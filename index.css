@@ -40,6 +40,12 @@ body {
   color: var(--text);
   margin-right: auto;
 }
+.version{
+  font-size: 14px;
+  font-style: italic;
+  color: var(--lighter-text);
+  font-weight: 400;
+}
 .palette-selector {
   position: relative;
   display: flex;
@@ -214,6 +220,7 @@ a:hover {
     order: 1;
   }
 }
+
 
 
 
