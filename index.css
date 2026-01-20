@@ -186,6 +186,17 @@ h4{
 }
 p{
   text-align: center;
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: var(--lighter-text);       /* same text color for all states */
+  text-decoration: none; /* no underline */
+  font-weight: bold;     /* optional */
+  cursor: pointer;       /* looks clickable */
+}
+
 /* Efekt hover na przyciskach */
 
 
@@ -200,5 +211,6 @@ p{
     order: 1;
   }
 }
+
 
 
