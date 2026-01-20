@@ -116,7 +116,6 @@ button.selected {
     height: 100vh;
     background-color: var(--regions-bar);
     padding: 10px 20px 5px 20px;
-    overflow-y: auto;
     display: flex;
     flex-direction: column;
     scrollbar-width: thin;
@@ -166,8 +165,24 @@ button.selected {
   transform: scale(1.1);
   filter: brightness(1.2);
 }
-
-
+.info-box{
+ display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+h2{
+  padding-top:20px;
+}
+h3{
+  padding-top:20px;
+}
+h4{
+  padding-top:20px;
+}
+p{
+  text-align: center;
 /* Efekt hover na przyciskach */
 
 
@@ -182,3 +197,4 @@ button.selected {
     order: 1;
   }
 }
+
