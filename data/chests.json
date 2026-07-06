@@ -22,6 +22,6 @@
 { "id": "natlan-iv", "name": "Natlan IV", "icon": "images/achievements/natlan iv.webp", "total": 169 },
 { "id": "nodkrai-i", "name": "Nod-Krai I", "icon": "images/achievements/nodkrai i.webp", "total": 299 },
 { "id": "nodkrai-ii", "name": "Nod-Krai II", "icon": "images/achievements/nodkrai ii.webp", "total": 229 },
-{ "id": "dormanport-templeofspace", "name": "Dorman Port & Temple of Space", "icon": "images/achievements/dormanport templeofspace.webp", "total": 222 },
+{ "id": "dormanport-templeofspace", "name": "Dorman Port & Temple of Space", "icon": "images/achievements/dormanporttempleofspace.webp", "total": 222 },
 { "id": "frostmoon", "name": "Frost Moon", "icon": "images/achievements/frostmoon.webp", "total": 224 }
 ]
