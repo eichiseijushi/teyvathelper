@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Constellations</title>
+  <link rel="stylesheet" href="constellations.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="topbar">
+    <button class="btn" id="backBtn">Back</button>
+
+    <div class="search">
+      <input id="searchInput" type="text" placeholder="Search character..." />
+    </div>
+
+    <label class="sort-wrap">
+      <span>Sort by</span>
+      <select id="sortSelect">
+        <option value="az">A-Z</option>
+        <option value="region">Region</option>
+        <option value="acquisitionDate">Acquisition date</option>
+        <option value="releaseDate">Release date</option>
+        <option value="constellationAsc">Constellation 0-6</option>
+        <option value="constellationDesc">Constellation 6-0</option>
+      </select>
+    </label>
+
+    <div class="element-filter" id="elementFilter" aria-label="Filter by element"></div>
+    <div class="extra-filters" id="extraFilters" aria-label="Additional filters"></div>
+
+    <div class="palette-selector">
+      <button id="paletteBtn">Change Color</button>
+      <div id="paletteMenu" class="palette-menu"></div>
+    </div>
+  </header>
+
+  <main class="main" id="mainPanel">
+    <div class="empty">Loading characters...</div>
+  </main>
+
+  <script src="constellations.js"></script>
+</body>
+</html>
