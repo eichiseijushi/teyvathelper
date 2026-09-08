@@ -32,7 +32,8 @@ const state = {
   sortBy: 'az',
   selectedElement: null,
   starFilter: null,
-  ownedFilter: null
+  ownedFilter: null,
+  showStats: false
 };
 
 const elements = [
@@ -292,6 +293,84 @@ function formatDateValue(value) {
   return value ? value : 'None';
 }
 
+function formatPercent(owned, total) {
+  return `${total ? Math.round((owned / total) * 100) : 0}%`;
+}
+
+function createStatItem(label, owned, total) {
+  const item = document.createElement('div');
+  item.className = `stat-item${total > 0 && owned === total ? ' completed' : ''}`;
+  item.innerHTML = `
+    <span class="stat-label">${label}</span>
+    <strong class="stat-value">${owned}/${total}</strong>
+    <span class="stat-percent">${formatPercent(owned, total)}</span>
+  `;
+  return item;
+}
+
+function createElementStatItem(element, characters) {
+  const item = document.createElement('div');
+  item.className = 'stat-item element-stat-item';
+
+  const label = document.createElement('span');
+  label.className = 'element-stat-label';
+  label.textContent = element;
+  item.appendChild(label);
+
+  const metrics = document.createElement('div');
+  metrics.className = 'element-stat-metrics';
+  for (const [metricLabel, rarity] of [['All', null], ['5-star', 5], ['4-star', 4]]) {
+    const matchingCharacters = rarity === null
+      ? characters
+      : characters.filter(character => character.rarity === rarity);
+    metrics.appendChild(createStatItem(
+      `${metricLabel} ${element}`,
+      matchingCharacters.filter(isCharacterOwned).length,
+      matchingCharacters.length
+    ));
+  }
+  item.appendChild(metrics);
+
+  return item;
+}
+
+function createStatsPanel() {
+  const panel = document.createElement('section');
+  panel.className = 'stats-panel';
+  panel.setAttribute('aria-label', 'Character statistics');
+
+  const title = document.createElement('h2');
+  title.className = 'stats-title';
+  title.textContent = 'Character Stats';
+  panel.appendChild(title);
+
+  const total = state.characters.length;
+  const owned = state.characters.filter(isCharacterOwned).length;
+  const fiveStars = state.characters.filter(character => character.rarity === 5);
+  const fourStars = state.characters.filter(character => character.rarity === 4);
+  const summary = document.createElement('div');
+  summary.className = 'stats-grid';
+  summary.appendChild(createStatItem('All characters', owned, total));
+  summary.appendChild(createStatItem('5-star characters', fiveStars.filter(isCharacterOwned).length, fiveStars.length));
+  summary.appendChild(createStatItem('4-star characters', fourStars.filter(isCharacterOwned).length, fourStars.length));
+  panel.appendChild(summary);
+
+  const elementsTitle = document.createElement('h3');
+  elementsTitle.className = 'stats-section-title';
+  elementsTitle.textContent = 'By element';
+  panel.appendChild(elementsTitle);
+
+  const elementsGrid = document.createElement('div');
+  elementsGrid.className = 'elements-grid';
+  for (const element of elements) {
+    const elementCharacters = state.characters.filter(character => character.element === element.key);
+    elementsGrid.appendChild(createElementStatItem(element.key, elementCharacters));
+  }
+  panel.appendChild(elementsGrid);
+
+  return panel;
+}
+
 function render() {
   const mainPanel = document.getElementById('mainPanel');
   const search = state.search.trim().toLowerCase();
@@ -323,12 +402,16 @@ function render() {
 
   filtered = getSortedCharacters(filtered);
 
+  const content = document.createDocumentFragment();
+  if (state.showStats) content.appendChild(createStatsPanel());
+
   const list = document.createElement('div');
   list.className = 'character-list';
 
   if (!filtered.length) {
     list.innerHTML = '<div class="empty">No characters found.</div>';
-    mainPanel.replaceChildren(list);
+    content.appendChild(list);
+    mainPanel.replaceChildren(content);
     return;
   }
 
@@ -376,7 +459,8 @@ function render() {
     list.appendChild(card);
   }
 
-  mainPanel.replaceChildren(list);
+  content.appendChild(list);
+  mainPanel.replaceChildren(content);
   bindEditableFields();
 }
 
@@ -477,7 +561,15 @@ document.getElementById('sortSelect').addEventListener('change', (event) => {
 });
 
 document.getElementById('backBtn').addEventListener('click', () => {
-  window.location.href = 'https://teyvathelper.vercel.app/';
+  window.location.href = 'index.html';
+});
+
+document.getElementById('statsBtn').addEventListener('click', () => {
+  state.showStats = !state.showStats;
+  const statsButton = document.getElementById('statsBtn');
+  statsButton.textContent = state.showStats ? 'Hide Stats' : 'Show Stats';
+  statsButton.setAttribute('aria-expanded', String(state.showStats));
+  render();
 });
 
 createElementFilter();
