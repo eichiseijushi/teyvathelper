@@ -477,7 +477,7 @@ document.getElementById('sortSelect').addEventListener('change', (event) => {
 });
 
 document.getElementById('backBtn').addEventListener('click', () => {
-  window.location.href = 'index.html';
+  window.location.href = 'https://teyvathelper.vercel.app/';
 });
 
 createElementFilter();
