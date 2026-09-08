@@ -283,6 +283,31 @@ button.selected {
   font-size: 1.25rem;
 }
 
+.stats-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.stats-tab {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  background: var(--buttons);
+  color: var(--text);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  transition: text-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.stats-tab:hover,
+.stats-tab.active {
+  text-shadow: 0 0 10px var(--text), 0 0 20px var(--text);
+  filter: brightness(1.2);
+}
+
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -293,6 +318,20 @@ button.selected {
   display: grid;
   grid-template-columns: repeat(7, minmax(0, 1fr));
   gap: 10px;
+}
+
+.constellation-stats-group + .constellation-stats-group .stats-section-title {
+  margin-top: 18px;
+}
+
+.constellation-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.constellation-stats-grid .stat-label {
+  font-style: italic;
 }
 
 .stat-item {
@@ -560,6 +599,10 @@ button.selected {
   .elements-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
+
+  .constellation-stats-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 600px) {
@@ -573,6 +616,10 @@ button.selected {
   }
 
   .elements-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .constellation-stats-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 

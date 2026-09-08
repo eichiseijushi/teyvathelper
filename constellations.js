@@ -33,7 +33,8 @@ const state = {
   selectedElement: null,
   starFilter: null,
   ownedFilter: null,
-  showStats: false
+  showStats: false,
+  statsView: 'ownership'
 };
 
 const elements = [
@@ -297,14 +298,19 @@ function formatPercent(owned, total) {
   return `${total ? Math.round((owned / total) * 100) : 0}%`;
 }
 
-function createStatItem(label, owned, total) {
+function createStatItem(label, owned, total, showCompleted = true, showProgress = true) {
   const item = document.createElement('div');
-  item.className = `stat-item${total > 0 && owned === total ? ' completed' : ''}`;
-  item.innerHTML = `
-    <span class="stat-label">${label}</span>
-    <strong class="stat-value">${owned}/${total}</strong>
-    <span class="stat-percent">${formatPercent(owned, total)}</span>
-  `;
+  item.className = `stat-item${showCompleted && total > 0 && owned === total ? ' completed' : ''}`;
+  item.innerHTML = showProgress
+    ? `
+      <span class="stat-label">${label}</span>
+      <strong class="stat-value">${owned}/${total}</strong>
+      <span class="stat-percent">${formatPercent(owned, total)}</span>
+    `
+    : `
+      <span class="stat-label">${label}</span>
+      <strong class="stat-value">${owned}</strong>
+    `;
   return item;
 }
 
@@ -334,16 +340,7 @@ function createElementStatItem(element, characters) {
   return item;
 }
 
-function createStatsPanel() {
-  const panel = document.createElement('section');
-  panel.className = 'stats-panel';
-  panel.setAttribute('aria-label', 'Character statistics');
-
-  const title = document.createElement('h2');
-  title.className = 'stats-title';
-  title.textContent = 'Character Stats';
-  panel.appendChild(title);
-
+function createOwnershipStats(panel) {
   const total = state.characters.length;
   const owned = state.characters.filter(isCharacterOwned).length;
   const fiveStars = state.characters.filter(character => character.rarity === 5);
@@ -367,6 +364,64 @@ function createStatsPanel() {
     elementsGrid.appendChild(createElementStatItem(element.key, elementCharacters));
   }
   panel.appendChild(elementsGrid);
+}
+
+function createConstellationStatsGroup(label, characters) {
+  const group = document.createElement('section');
+  group.className = 'constellation-stats-group';
+
+  const title = document.createElement('h3');
+  title.className = 'stats-section-title';
+  title.textContent = label;
+  group.appendChild(title);
+
+  const grid = document.createElement('div');
+  grid.className = 'constellation-stats-grid';
+  for (let constellation = 0; constellation <= 6; constellation++) {
+    const count = characters.filter(character =>
+      getSavedConstellationValue(character.id, getBaseConstellationValue(character)) === constellation
+    ).length;
+    grid.appendChild(createStatItem(`C${constellation}`, count, characters.length, false, false));
+  }
+  group.appendChild(grid);
+  return group;
+}
+
+function createConstellationStats(panel) {
+  const fiveStars = state.characters.filter(character => character.rarity === 5);
+  const fourStars = state.characters.filter(character => character.rarity === 4);
+  panel.appendChild(createConstellationStatsGroup('All characters', state.characters));
+  panel.appendChild(createConstellationStatsGroup('5-star characters', fiveStars));
+  panel.appendChild(createConstellationStatsGroup('4-star characters', fourStars));
+}
+
+function createStatsPanel() {
+  const panel = document.createElement('section');
+  panel.className = 'stats-panel';
+  panel.setAttribute('aria-label', 'Character statistics');
+
+  const title = document.createElement('h2');
+  title.className = 'stats-title';
+  title.textContent = 'Character Stats';
+  panel.appendChild(title);
+
+  const tabs = document.createElement('div');
+  tabs.className = 'stats-tabs';
+  for (const [view, label] of [['ownership', 'Ownership'], ['constellations', 'Constellations']]) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = `stats-tab${state.statsView === view ? ' active' : ''}`;
+    button.textContent = label;
+    button.addEventListener('click', () => {
+      state.statsView = view;
+      render();
+    });
+    tabs.appendChild(button);
+  }
+  panel.appendChild(tabs);
+
+  if (state.statsView === 'ownership') createOwnershipStats(panel);
+  else createConstellationStats(panel);
 
   return panel;
 }
